@@ -23,11 +23,13 @@ categories:
 + runv： UnikernelRuntime（基于unikernel）
 
 ## 二. CRI架构
-<div style="text-align: center;">
-   ![CRI架构](.\k8sRuntime\k8sRuntime2.jpg)
+
+![CRI架构](.\k8sRuntime\k8sRuntime2.jpg)
 
 ![cni-arch](https://user-images.githubusercontent.com/5608425/69022893-c67eeb00-09f7-11ea-9203-fd96b90dfbef.jpg)
 CRI架构
+
+<div style="text-align: center;">
 </div>
 
 
