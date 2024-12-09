@@ -1,0 +1,60 @@
+{
+    "title": "www6vHome",
+    "author": "www6v",
+    "description": "www6vHome",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "styles": {
+        "website": "./styles/website.css"
+    },
+    "links": {
+        "sidebar": {
+            "分布式Handbook": "https://github.com/www6v/www6vBookSource"
+        }
+    },
+    "plugins": [
+        "mermaid",
+        "github",
+        "editlink",
+        "page-toc",
+        "-lunr",
+        "-search",
+        "-search-plus",
+        "-search-pro",
+        "tbfed-pagefooter",
+
+        "theme-default"   
+    ],
+
+
+    "pluginsConfig": {
+
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord" : ["Gitbook Use"]
+        },
+
+
+        "theme-default": {
+            "showLevel": true
+        },
+
+        "page-toc": {
+          "selector": ".markdown-section h1, .markdown-section h2, .markdown-section h3",
+          "position": "before-first",
+          "showByDefault": true
+        },
+        "github": {
+            "url": "https://github.com/www6v"
+        },
+        "editlink": {
+            "base": "https://github.com/www6v/www6vBookSource/blob/master",
+            "label": "编辑本页"
+        },
+        "tbfed-pagefooter": {
+          "copyright":"&copy Wang Wei(www6v)",
+          "modify_label": "Updated at",
+          "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }     
+    }
+}

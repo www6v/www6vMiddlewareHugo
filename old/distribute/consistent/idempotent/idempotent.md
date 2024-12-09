@@ -1,0 +1,1 @@
+[幂等性](https://www6v.github.io/www6vHomeHexo/2017/03/21/idempotent/)

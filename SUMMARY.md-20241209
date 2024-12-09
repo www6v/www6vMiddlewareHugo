@@ -1,0 +1,95 @@
+
+# 目录
+
+## 说明
+
+- [序](README.md)
+
+## 分布式
+
+- [一致性]()
+    - [Split Brain](distribute/consistent/splitBrain.md)
+    - [Raft协议](distribute/consistent/raft.md)
+    - [事务]()      
+       - [分布式一致性总结](distribute/consistent/transaction/consistent.md)
+       - [Mysql事务总结](distribute/consistent/transaction/transaction.md)
+    - [分布式锁](distribute/consistent/distributedLock.md)
+    - [幂等]()
+       - [分布式ID生成](distribute/consistent/idempotent/id.md)
+       - [幂等](distribute/consistent/idempotent/idempotent.md)  
+
+-----
+
+- [中间件]()
+    - [Zab协议](distribute/middleware/zab.md)   
+    
+    - [Nginx总结](distribute/middleware/nginx.md)    
+    
+    - [消息系统 汇总](https://www6v.github.io/www6vHomeHexo/2021/02/11/mqSummary/)                        
+    - [缓存]()
+        - [缓存总结](/distribute/middleware/cache/cacheSummary.md)
+        - [缓存机制](/distribute/middleware/cache/cache.md)
+
+-----
+
+- [云原生]()
+  - [Kubernetes 汇总](/distribute/cloudNative/kubernetes.md)   
+  - [docker 2](/distribute/cloudNative/docker.md)
+  - [knative](/distribute/cloudNative/knative.md)
+  - [serverless](/distribute/cloudNative/serverless.md)
+  - [Service Mesh 汇总](/distribute/cloudNative/serviceMesh.md)
+  - [十二要素](/distribute/cloudNative/12factor.md)
+  - [总结](/distribute/cloudNative/cloudNative.md)
+
+
+-----
+
+- [存储]()
+  - [Nosql](distribute/storage/nosql.md)
+  - [Redis 汇总](distribute/storage/redis.md)
+  - [elasticSearch](distribute/storage/elasticSearch.md)
+  - [文件IO](distribute/storage/fileIO.md)
+  - [总结 3](distribute/storage/brief.md)
+
+-----
+
+- [服务治理 汇总](https://www6v.github.io/www6vHomeHexo/2021/03/03/serviceGovernanceSummary/)
+
+-----
+
+- [架构 7]()
+  - [CQRS](/distribute/arch/cqrs.md)
+  - [feed](/distribute/arch/feed.md)
+  - [xaas](/distribute/arch/xaas.md)
+  - [中台战略](/distribute/arch/platform.md)
+  - [异地多活](/distribute/arch/multiLive.md)
+  - [秒杀系统 2](/distribute/arch/seckill.md)
+
+-----
+
+- [稳定性 汇总](https://www6v.github.io/www6vHomeHexo/2019/09/22/stableSummary/)
+
+-----
+
+- [网络 6]()
+  - [TCP 2](/distribute/network/tcp.md)
+  - [https](/distribute/network/https.md)
+  - [iptables](/distribute/network/iptables.md)
+  - [socket](/distribute/network/socket.md)
+  - [网络互通](/distribute/network/network.md)
+
+-----
+
+- [资源](/distribute/resource/resource.md)
+
+
+
+
+
+
+
+
+
+
+
+

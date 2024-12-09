@@ -1,0 +1,1 @@
+[Split Brain](https://www6v.github.io/www6vHomeHexo/2017/02/19/splitBrain/)

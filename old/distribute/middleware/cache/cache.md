@@ -1,0 +1,1 @@
+[缓存机制](https://www6v.github.io/www6vHomeHexo/2017/12/07/cache/)
