@@ -33,7 +33,8 @@
         "-page-toc",
         "page-treeview",
 
-        "accordion"
+        "accordion",
+        "code"
 
     ],
 
