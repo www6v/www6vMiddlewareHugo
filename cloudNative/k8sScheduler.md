@@ -16,10 +16,10 @@ categories:
 ##  资源调度泛型 [1]
 
 <div style="text-align: center;">
-
+</div>
 ![调度系统泛型](https://user-images.githubusercontent.com/5608425/65023010-96b65700-d964-11e9-9acd-7cc8edbbde85.JPG)
 调度系统泛型
-</div>
+
 
 
 类型|	资源选择|	排他性|	分配粒度|	集群策略

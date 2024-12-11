@@ -11,8 +11,6 @@ categories:
 <p></p>
 <!-- more -->
 
-## 目录
-<!-- toc -->
 
 # 高级调度 Overview [2]
 ![k8s高级调度](.\k8sAdvancedScheduling\k8sScheduler1.jpg)
