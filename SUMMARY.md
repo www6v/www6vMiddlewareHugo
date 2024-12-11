@@ -41,3 +41,8 @@
   - [Kubernetes调度器](/cloudNative/k8sScheduler.md)
   - [Kubernetes 高级调度](/cloudNative/k8sAdvancedScheduling.md)
 
+- [监控和AutoScale]() 
+  - [Kubernetes自动伸缩和HPA](/cloudNative/k8sAutoScale.md)
+  - [可观测性-Prometheus](/cloudNative/observabilityPrometheus.md)
+  - [可观测性-Prometheus HA ](/cloudNative/observabilityPrometheusHA.md)
+  - [可观测性-Kubernetes](/cloudNative/k8sObservability.md)
