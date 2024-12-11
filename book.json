@@ -20,10 +20,11 @@
         "-lunr",
         "-search",
         "-search-plus",
-        "search-pro",
+        "-search-pro",
         "tbfed-pagefooter",
 
         "theme-default",
+        "-theme-comscore",
 
 
         "-anchor-navigation-ex",
@@ -92,6 +93,10 @@
         "page-treeview": {
             "minHeaderCount": "2",
             "minHeaderDeep": "2"
-        }                 
+        },   
+
+        "theme-comscore": {
+            "showLevel": true
+        }                       
     }
 }
