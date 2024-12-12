@@ -32,16 +32,15 @@ categories:
 ● K8s configfile 泄露
 + K8s configfile 作为 K8s 集群的管理凭证，其中包含有关 K8s 集群的详细信息（API Server、登录凭证）。
 + 如果攻击者能够访问到此文件(如办公网员工机器入侵、泄露到 Github的代码等)，就可以直接通过 API Server 接管 K8s 集群，带来风险隐患。
-
-+ 拿到K8s configfile完整利用流程：
-K8s configfile --> 创建后门Pod/挂载主机路径 --> 通过Kubectl 进入容器 --> 利用挂载目录逃逸。
++ 拿到K8s configfile完整利用流程  
+ K8s configfile --> 创建后门Pod/挂载主机路径 --> 通过Kubectl 进入容器 --> 利用挂载目录逃逸。
 
 ##### 执行
 
 ● 利用Service Account
-  容器内部默认携带 K8s Service Account的认证凭据,路径为：/run/secrets/kubernetes.io/serviceaccount/token
-  如运维配置不当没有设置 RBAC （基于角色的访问控制）,那么攻击者就可以通过 Pod 获取到 Token 进行API Server认证。
-  ...创建特权Pod...
+  容器内部默认携带 K8s Service Account的认证凭据,路径为：/run/secrets/kubernetes.io/serviceaccount/token  
+  如运维配置不当没有设置 RBAC （基于角色的访问控制）,那么攻击者就可以通过 Pod 获取到 Token 进行API Server认证。  
+  ...创建特权Pod...  
 
 ● CURL方式请求
 
