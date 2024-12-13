@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>API网关 on Hugo Book</title>
+    <link>http://localhost:1313/categories/API%E7%BD%91%E5%85%B3/</link>
+    <description>Recent content in API网关 on Hugo Book</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 22 Mar 2022 13:58:23 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/API%E7%BD%91%E5%85%B3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API 网关-apisix</title>
+      <link>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawayApisix/</link>
+      <pubDate>Tue, 22 Mar 2022 13:58:23 +0000</pubDate>
+      <guid>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawayApisix/</guid>
+      <description>&#xA;apisix特性&#xD;#&#xD;Core api聚合 灰度发布 稳定性 服务熔断 故障注入 流量复制 云原生 多云，混合云 容器友好 随意扩缩容 apisix功能&#xD;#&#xD;动态配置，不用reload 路由, ssl证书，上游，插件&amp;hellip; 插件化(40个) 身份验证, 安全, 日志, 可观察性&amp;hellip; 对接Prom，zipkin， skywalking grpc代理和协议转换(rest &amp;lt;-&amp;gt; gprc) apisix只用了nginx的网络层 apisix使用场景&#xD;#&#xD;处理L4, L7层流量 代替nginx处理南北流量 代替envoy处理东西流量 k8s ingress controller 参考&#xD;#&#xD;【云原生学院 #3】基于 Apache APISIX 的全流量 API 网关 *** </description>
+    </item>
+    <item>
+      <title>API Gateway网关</title>
+      <link>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGateway/</link>
+      <pubDate>Fri, 21 Jan 2022 10:31:46 +0000</pubDate>
+      <guid>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGateway/</guid>
+      <description>目录&#xD;#&#xD;特性&#xD;#&#xD;路由 灰度发布 反向代理,负载均衡 鉴权 限流 监控 缓存 分类&#xD;#&#xD;入口网关 出口网关 框架&#xD;#&#xD;产品 技术 {% post_link &amp;lsquo;apiGatawayApisix&amp;rsquo; apisix%} self lua + Nginx Kong lua + Nginx Zuul Spring Cloud Netflix {% post_link &amp;lsquo;apiGatawaySpringGateway&amp;rsquo; Gateway %} self Spring Cloud Traefik Golang 实现 [3]&#xD;#&#xD;扩展性 责任链模式 - Zuul filter, Envoy filter 性能 多路 I/O 复用模型 和 线程池 可用性 线程池 服务隔离 API Gateway+BFF&#xD;#&#xD;API Gateway + BFF [3]&#xD;#&#xD;流量网关 + 业务网关</description>
+    </item>
+  </channel>
+</rss>

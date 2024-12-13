@@ -1,1 +1,0 @@
-[分布式ID生成](https://www6v.github.io/www6vHomeHexo/2016/08/15/id/)

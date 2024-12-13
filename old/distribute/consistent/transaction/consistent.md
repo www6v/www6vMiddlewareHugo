@@ -1,1 +1,0 @@
-[分布式一致性总结](https://www6v.github.io/www6vHomeHexo/2016/02/09/consistent/)

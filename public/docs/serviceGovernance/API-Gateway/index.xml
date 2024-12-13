@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>API Gateway on Hugo Book</title>
+    <link>http://localhost:1313/docs/serviceGovernance/API-Gateway/</link>
+    <description>Recent content in API Gateway on Hugo Book</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 22 Mar 2022 13:58:48 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/serviceGovernance/API-Gateway/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API 网关-SpringCloud Gateway</title>
+      <link>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/</link>
+      <pubDate>Tue, 22 Mar 2022 13:58:48 +0000</pubDate>
+      <guid>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/</guid>
+      <description>Features [0]&#xD;#&#xD;Built on Spring Framework 5, Project Reactor and Spring Boot 2.0 Able to match routes on any request attribute. Predicates and filters are specific to routes. Circuit Breaker integration. Spring Cloud DiscoveryClient integration Easy to write Predicates and Filters Request Rate Limiting Path Rewriting 核心概念 [1][2]&#xD;#&#xD;路由（Route）&#xA;id：路由标识，要求唯一，名称任意（默认值 uuid，一般不用，需要自定义） uri：请求最终被转发到的目标地址 order： 路由优先级，数字越小，优先级越高 predicates：断言数组，即判断条件，如果返回值是boolean，则转发请求到 uri 属性指定的服务中 filters：过滤器数组，在请求传递过程中，对请求做一些修改 谓词、断言（Predicate） 允许开发人员匹配 HTTP 请求中的内容，比如请求头或请求参数，最后根据匹配结果返回一个布尔值。参照 Java8 的新特性Predicate.&#xA;过滤器（Filter） 可以在返回请求之前或之后修改请求和响应的内容。&#xA;路由（Route）[1][2]&#xD;#&#xD;服务发现-集成nacos服务注册中心 [2]&#xD;#&#xD;服务路由配置 spring: cloud: gateway: routes: - id: gateway-provider_1 ## 使用了lb形式，从注册中心负载均衡的获取uri uri: lb://gateway-provider ## 配置断言 predicates: - Path=/gateway/provider/** filters: - AddResponseHeader=X-Response-Foo, Bar 自动路由配置 # enabled：默认为false，设置为true表明spring cloud gateway开启服务发现和路由的功能，网关自动根据注册中心的服务名为每个服务创建一个router，将以服务名开头的请求路径转发到对应的服务 spring.</description>
+    </item>
+  </channel>
+</rss>
