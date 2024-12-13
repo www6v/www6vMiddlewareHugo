@@ -6,21 +6,42 @@
     <description>Recent content in 服务治理 on Hugo Book</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Mar 2022 13:58:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Mar 2022 13:58:48 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API 网关-SpringCloud Gateway</title>
+      <link>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/</link>
+      <pubDate>Tue, 22 Mar 2022 13:58:48 +0000</pubDate>
+      <guid>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/</guid>
+      <description>Features [0]&#xD;#&#xD;Built on Spring Framework 5, Project Reactor and Spring Boot 2.0 Able to match routes on any request attribute. Predicates and filters are specific to routes. Circuit Breaker integration. Spring Cloud DiscoveryClient integration Easy to write Predicates and Filters Request Rate Limiting Path Rewriting 核心概念 [1][2]&#xD;#&#xD;路由（Route）&#xA;id：路由标识，要求唯一，名称任意（默认值 uuid，一般不用，需要自定义） uri：请求最终被转发到的目标地址 order： 路由优先级，数字越小，优先级越高 predicates：断言数组，即判断条件，如果返回值是boolean，则转发请求到 uri 属性指定的服务中 filters：过滤器数组，在请求传递过程中，对请求做一些修改 谓词、断言（Predicate） 允许开发人员匹配 HTTP 请求中的内容，比如请求头或请求参数，最后根据匹配结果返回一个布尔值。参照 Java8 的新特性Predicate.&#xA;过滤器（Filter） 可以在返回请求之前或之后修改请求和响应的内容。&#xA;路由（Route）[1][2]&#xD;#&#xD;服务发现-集成nacos服务注册中心 [2]&#xD;#&#xD;服务路由配置 spring: cloud: gateway: routes: - id: gateway-provider_1 ## 使用了lb形式，从注册中心负载均衡的获取uri uri: lb://gateway-provider ## 配置断言 predicates: - Path=/gateway/provider/** filters: - AddResponseHeader=X-Response-Foo, Bar 自动路由配置 # enabled：默认为false，设置为true表明spring cloud gateway开启服务发现和路由的功能，网关自动根据注册中心的服务名为每个服务创建一个router，将以服务名开头的请求路径转发到对应的服务 spring.</description>
+    </item>
     <item>
       <title>API 网关-apisix</title>
       <link>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawayApisix/</link>
       <pubDate>Tue, 22 Mar 2022 13:58:23 +0000</pubDate>
       <guid>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawayApisix/</guid>
-      <description>&#xA;apisix特性&#xD;#&#xD;Core api聚合 灰度发布 稳定性 服务熔断 故障注入 流量复制 云原生 多云，混合云 容器友好 随意扩缩容 apisix功能&#xD;#&#xD;动态配置，不用reload 路由, ssl证书，上游，插件&amp;hellip; 插件化(40个) 身份验证, 安全, 日志, 可观察性&amp;hellip; 对接Prom，zipkin， skywalking grpc代理和协议转换(rest &amp;lt;-&amp;gt; gprc) apisix只用了nginx的网络层 apisix使用场景&#xD;#&#xD;处理L4, L7层流量 代替nginx处理南北流量 代替envoy处理东西流量 k8s ingress controller 参考&#xD;#&#xD;【云原生学院 #3】基于 Apache APISIX 的全流量 API 网关 *** </description>
+      <description>&#xA;apisix特性&#xD;#&#xD;Core api聚合 灰度发布 稳定性 服务熔断 故障注入 流量复制 云原生 多云，混合云 容器友好 随意扩缩容 apisix功能&#xD;#&#xD;动态配置，不用reload&#xA;路由, ssl证书，上游，插件&amp;hellip; 插件化(40个)&#xA;身份验证, 安全, 日志, 可观察性&amp;hellip; 对接Prom，zipkin， skywalking grpc代理和协议转换(rest &amp;lt;-&amp;gt; gprc) apisix只用了nginx的网络层 apisix使用场景&#xD;#&#xD;处理L4, L7层流量 代替nginx处理南北流量 代替envoy处理东西流量 k8s ingress controller 参考&#xD;#&#xD;【云原生学院 #3】基于 Apache APISIX 的全流量 API 网关 *** </description>
     </item>
     <item>
       <title>API Gateway网关</title>
       <link>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGateway/</link>
       <pubDate>Fri, 21 Jan 2022 10:31:46 +0000</pubDate>
       <guid>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGateway/</guid>
-      <description>目录&#xD;#&#xD;特性&#xD;#&#xD;路由 灰度发布 反向代理,负载均衡 鉴权 限流 监控 缓存 分类&#xD;#&#xD;入口网关 出口网关 框架&#xD;#&#xD;产品 技术 {% post_link &amp;lsquo;apiGatawayApisix&amp;rsquo; apisix%} self lua + Nginx Kong lua + Nginx Zuul Spring Cloud Netflix {% post_link &amp;lsquo;apiGatawaySpringGateway&amp;rsquo; Gateway %} self Spring Cloud Traefik Golang 实现 [3]&#xD;#&#xD;扩展性 责任链模式 - Zuul filter, Envoy filter 性能 多路 I/O 复用模型 和 线程池 可用性 线程池 服务隔离 API Gateway+BFF&#xD;#&#xD;API Gateway + BFF [3]&#xD;#&#xD;流量网关 + 业务网关</description>
+      <description>特性&#xD;#&#xD;路由 灰度发布 反向代理,负载均衡 鉴权 限流 监控 缓存 分类&#xD;#&#xD;入口网关 出口网关 框架&#xD;#&#xD;产品 技术 {% post_link &amp;lsquo;apiGatawayApisix&amp;rsquo; apisix%} self lua + Nginx Kong lua + Nginx Zuul Spring Cloud Netflix {% post_link &amp;lsquo;apiGatawaySpringGateway&amp;rsquo; Gateway %} self Spring Cloud Traefik Golang 实现 [3]&#xD;#&#xD;扩展性&#xA;责任链模式 - Zuul filter, Envoy filter 性能&#xA;多路 I/O 复用模型 和 线程池 可用性&#xA;线程池 服务隔离 API Gateway+BFF&#xD;#&#xD;API Gateway + BFF [3]&#xD;#&#xD;流量网关 + 业务网关</description>
+    </item>
+    <item>
+      <title>微服务 总结</title>
+      <link>http://localhost:1313/docs/serviceGovernance/Overview/microservice/</link>
+      <pubDate>Mon, 09 Sep 2019 15:02:28 +0000</pubDate>
+      <guid>http://localhost:1313/docs/serviceGovernance/Overview/microservice/</guid>
+      <description>目录&#xD;#&#xD;微服务 定义&#xD;#&#xD;In short, the microservice architectural style [1] is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API. These services are built around business capabilities and independently deployable by fully automated deployment machinery. There is a bare minimum of centralized management of these services, which may be written in different programming languages and use different data storage technologies.</description>
+    </item>
+    <item>
+      <title>分布式服务框架功能</title>
+      <link>http://localhost:1313/docs/serviceGovernance/Overview/soaFeature/</link>
+      <pubDate>Thu, 07 May 2015 17:01:07 +0000</pubDate>
+      <guid>http://localhost:1313/docs/serviceGovernance/Overview/soaFeature/</guid>
+      <description>负载均衡 RR Least Connections Least Time “Power of Two Choices” 参考&#xD;#&#xD;NGINX and the “Power of Two Choices” Load-Balancing Algorithm 【直播回放】海量并发微服务框架设计 重要公式</description>
     </item>
   </channel>
 </rss>
