@@ -34,10 +34,10 @@ categories:
 
 | 产品    | 技术                 |
 | ------- | -------------------- |
-| {% post_link  'apiGatawayApisix'  apisix%} self | lua + Nginx          |
+|  [apisix](../apiGatawayApisix/_index.md) self | lua + Nginx          |
 | Kong    | lua + Nginx          |
 | Zuul    | Spring Cloud Netflix |
-| {% post_link  'apiGatawaySpringGateway' Gateway %} self | Spring Cloud         |
+|  [Gateway](../apiGatawaySpringGateway/_index.md) self | Spring Cloud         |
 | Traefik | Golang               |
 
 # 实现 [3]

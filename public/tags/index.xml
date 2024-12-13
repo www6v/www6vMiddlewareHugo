@@ -6,13 +6,41 @@
     <description>Recent content in Tags on Hugo Book</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Mar 2022 13:58:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Aug 2022 19:20:42 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>服务治理</title>
+      <link>http://localhost:1313/tags/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/</link>
+      <pubDate>Sun, 14 Aug 2022 19:20:42 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>负载均衡</title>
+      <link>http://localhost:1313/tags/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/</link>
+      <pubDate>Fri, 06 May 2022 11:29:37 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/</guid>
+      <description></description>
+    </item>
     <item>
       <title>API Gateway</title>
       <link>http://localhost:1313/tags/API-Gateway/</link>
       <pubDate>Tue, 22 Mar 2022 13:58:48 +0000</pubDate>
       <guid>http://localhost:1313/tags/API-Gateway/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>分布式配置</title>
+      <link>http://localhost:1313/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Mon, 27 Jul 2020 22:11:35 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nginx</title>
+      <link>http://localhost:1313/tags/Nginx/</link>
+      <pubDate>Thu, 26 Mar 2020 12:07:27 +0000</pubDate>
+      <guid>http://localhost:1313/tags/Nginx/</guid>
       <description></description>
     </item>
     <item>

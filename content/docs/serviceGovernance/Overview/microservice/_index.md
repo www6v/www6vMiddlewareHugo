@@ -20,14 +20,13 @@ In short, the microservice architectural style [1] is an approach to developing 
 
 #  Core
 ###  API网关  
-{% post_link 'serviceGovernanceSummary'  %}  self     
+[serviceGovernanceSummary](../serviceGovernanceSummary/_index.md)   self 
 
 ###  服务容错
-{% post_link 'serviceGovernanceSummary'  %}  self
-
+[serviceGovernanceSummary](../serviceGovernanceSummary/_index.md) self
 
 ###  服务注册和发现
-{% post_link 'serviceGovernanceSummary'  %}  self
+[serviceGovernanceSummary](../serviceGovernanceSummary/_index.md)  self
 
 ###  服务间调用
    [Micro Service Architecture](https://yobriefca.se/blog/2013/04/29/micro-service-architecture/)

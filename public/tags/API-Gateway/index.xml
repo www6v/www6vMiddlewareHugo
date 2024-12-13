@@ -27,7 +27,7 @@
       <link>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGateway/</link>
       <pubDate>Fri, 21 Jan 2022 10:31:46 +0000</pubDate>
       <guid>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGateway/</guid>
-      <description>特性&#xD;#&#xD;路由 灰度发布 反向代理,负载均衡 鉴权 限流 监控 缓存 分类&#xD;#&#xD;入口网关 出口网关 框架&#xD;#&#xD;产品 技术 {% post_link &amp;lsquo;apiGatawayApisix&amp;rsquo; apisix%} self lua + Nginx Kong lua + Nginx Zuul Spring Cloud Netflix {% post_link &amp;lsquo;apiGatawaySpringGateway&amp;rsquo; Gateway %} self Spring Cloud Traefik Golang 实现 [3]&#xD;#&#xD;扩展性&#xA;责任链模式 - Zuul filter, Envoy filter 性能&#xA;多路 I/O 复用模型 和 线程池 可用性&#xA;线程池 服务隔离 API Gateway+BFF&#xD;#&#xD;API Gateway + BFF [3]&#xD;#&#xD;流量网关 + 业务网关</description>
+      <description>&#xA;特性&#xD;#&#xD;路由 灰度发布 反向代理,负载均衡 鉴权 限流 监控 缓存 分类&#xD;#&#xD;入口网关 出口网关 框架&#xD;#&#xD;产品 技术 apisix self lua + Nginx Kong lua + Nginx Zuul Spring Cloud Netflix Gateway self Spring Cloud Traefik Golang 实现 [3]&#xD;#&#xD;扩展性&#xA;责任链模式 - Zuul filter, Envoy filter 性能&#xA;多路 I/O 复用模型 和 线程池 可用性&#xA;线程池 服务隔离 API Gateway+BFF&#xD;#&#xD;API Gateway + BFF [3]&#xD;#&#xD;流量网关 + 业务网关&#xA;BFF 聚合网关 [2]&#xD;#&#xD;参考&#xD;#&#xD;使用 API 网关构建微服务 微服务架构：BFF和网关是如何演化出来的？ 《27 | API网关：系统的门面要如何做呢？》 百亿规模API网关服务Shepherd的设计与实现 点评 未 Go to Page self </description>
     </item>
   </channel>
 </rss>
