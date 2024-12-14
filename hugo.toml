@@ -1,7 +1,7 @@
 # hugo server --minify --themesDir ../.. --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
-baseURL = 'https://example.com/'
-title = 'Hugo Book'
+baseURL = 'https://www6v.github.io/www6vMiddleware/'
+title = '中间件'
 theme = 'hugo-book'
 
 # Book configuration
@@ -107,12 +107,20 @@ disablePathToLower = true
   # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
   # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
   # Theme will print warning if page referenced in markdown does not exists.
-  BookPortableLinks = true
+  ##### BookPortableLinks = true
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
-  BookServiceWorker = true
+  ##### BookServiceWorker = true
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
-  BookTranslatedOnly = false
+  ##### BookTranslatedOnly = false
+
+
+
+[params.assets]
+disableFingerprinting = true
+
+
+params.assets.disableFingerprinting = true

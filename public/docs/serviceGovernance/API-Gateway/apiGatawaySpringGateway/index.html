@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/www6vMiddleware/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=www6vMiddleware/livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Features [0]#Built on Spring Framework 5, Project Reactor and Spring Boot 2.0 Able to match routes on any request attribute. Predicates and filters are specific to routes. Circuit Breaker integration. Spring Cloud DiscoveryClient integration Easy to write Predicates and Filters Request Rate Limiting Path Rewriting 核心概念 [1][2]#路由（Route）
@@ -9,8 +9,8 @@ id：路由标识，要求唯一，名称任意（默认值 uuid，一般不用�
 路由（Route）[1][2]#服务发现-集成nacos服务注册中心 [2]#服务路由配置 spring: cloud: gateway: routes: - id: gateway-provider_1 ## 使用了lb形式，从注册中心负载均衡的获取uri uri: lb://gateway-provider ## 配置断言 predicates: - Path=/gateway/provider/** filters: - AddResponseHeader=X-Response-Foo, Bar 自动路由配置 # enabled：默认为false，设置为true表明spring cloud gateway开启服务发现和路由的功能，网关自动根据注册中心的服务名为每个服务创建一个router，将以服务名开头的请求路径转发到对应的服务 spring.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/">
-  <meta property="og:site_name" content="Hugo Book">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/">
+  <meta property="og:site_name" content="中间件">
   <meta property="og:title" content="API 网关-SpringCloud Gateway">
   <meta property="og:description" content="Features [0]#Built on Spring Framework 5, Project Reactor and Spring Boot 2.0 Able to match routes on any request attribute. Predicates and filters are specific to routes. Circuit Breaker integration. Spring Cloud DiscoveryClient integration Easy to write Predicates and Filters Request Rate Limiting Path Rewriting 核心概念 [1][2]#路由（Route）
 id：路由标识，要求唯一，名称任意（默认值 uuid，一般不用，需要自定义） uri：请求最终被转发到的目标地址 order： 路由优先级，数字越小，优先级越高 predicates：断言数组，即判断条件，如果返回值是boolean，则转发请求到 uri 属性指定的服务中 filters：过滤器数组，在请求传递过程中，对请求做一些修改 谓词、断言（Predicate） 允许开发人员匹配 HTTP 请求中的内容，比如请求头或请求参数，最后根据匹配结果返回一个布尔值。参照 Java8 的新特性Predicate.
@@ -22,15 +22,13 @@ id：路由标识，要求唯一，名称任意（默认值 uuid，一般不用�
     <meta property="article:published_time" content="2022-03-22T13:58:48+00:00">
     <meta property="article:modified_time" content="2022-03-22T13:58:48+00:00">
     <meta property="article:tag" content="API Gateway">
-<title>API 网关-SpringCloud Gateway | Hugo Book</title>
-<link rel="icon" href="/favicon.png" >
-<link rel="manifest" href="/manifest.json">
-<link rel="canonical" href="http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/">
-<link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
-  <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.00f24245ba145350d6a7d4627a067b10704a773920b0be54d269e10ef5c946e1.js" integrity="sha256-APJCRboUU1DWp9RiegZ7EHBKdzkgsL5U0mnhDvXJRuE=" crossorigin="anonymous"></script>
-
-  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<title>API 网关-SpringCloud Gateway | 中间件</title>
+<link rel="icon" href="/www6vMiddleware/favicon.png" >
+<link rel="manifest" href="/www6vMiddleware/manifest.json">
+<link rel="canonical" href="http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/">
+<link rel="stylesheet" href="/www6vMiddleware/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
+  <script defer src="/www6vMiddleware/fuse.min.js"></script>
+  <script defer src="/www6vMiddleware/en.search.min.93e50f5e49a2dbcae27e2c92eedd98c66f712ea8903e07c4a3ef1b2c21d71b47.js" integrity="sha256-k&#43;UPXkmi28rifiyS7t2Yxm9xLqiQPgfEo&#43;8bLCHXG0c=" crossorigin="anonymous"></script>
 
   
 
@@ -49,7 +47,7 @@ https://github.com/alex-shpak/hugo-book
         
   <nav>
 <h2 class="book-brand">
-  <a class="flex align-center" href="/"><span>Hugo Book</span>
+  <a class="flex align-center" href="/www6vMiddleware/"><span>中间件</span>
   </a>
 </h2>
 
@@ -111,7 +109,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/Overview/microservice/" class="">微服务 总结</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/Overview/microservice/" class="">微服务 总结</a>
   
 
           
@@ -129,7 +127,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/Overview/soaFeature/" class="">分布式服务框架功能</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/Overview/soaFeature/" class="">分布式服务框架功能</a>
   
 
           
@@ -165,7 +163,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/" class="active">API 网关-SpringCloud Gateway</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/" class="active">API 网关-SpringCloud Gateway</a>
   
 
         </li>
@@ -178,7 +176,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/API-Gateway/apiGatawayApisix/" class="">API 网关-apisix</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGatawayApisix/" class="">API 网关-apisix</a>
   
 
           
@@ -196,7 +194,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/API-Gateway/apiGateway/" class="">API Gateway网关</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGateway/" class="">API Gateway网关</a>
   
 
           
@@ -232,7 +230,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/ConfigDiscovery/soaDiscovery/" class="">服务发现</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/ConfigDiscovery/soaDiscovery/" class="">服务发现</a>
   
 
           
@@ -250,7 +248,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/ConfigDiscovery/config/" class="">服务治理-分布式配置</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/ConfigDiscovery/config/" class="">服务治理-分布式配置</a>
   
 
           
@@ -286,7 +284,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/loadBalance/loadBalance/" class="">负载均衡-算法</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/loadBalance/loadBalance/" class="">负载均衡-算法</a>
   
 
           
@@ -304,7 +302,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/loadBalance/nginxOptimize/" class="">Nginx优化</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/loadBalance/nginxOptimize/" class="">Nginx优化</a>
   
 
         </li>
@@ -317,7 +315,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/loadBalance/nginx/" class="">Nginx总结</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/loadBalance/nginx/" class="">Nginx总结</a>
   
 
           
@@ -353,7 +351,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/threadModel/jsfThreadModel/" class="">京东服务框架JSF服务提供者线程模型</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/threadModel/jsfThreadModel/" class="">京东服务框架JSF服务提供者线程模型</a>
   
 
           
@@ -402,7 +400,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerateFramework/" class="">容错框架</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerateFramework/" class="">容错框架</a>
   
 
           
@@ -420,7 +418,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/faultTolerant/faultTolerant/soaTimeout/" class="">超时和重试 总结</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTimeout/" class="">超时和重试 总结</a>
   
 
           
@@ -438,7 +436,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerate/" class="">分布式服务框架 容错机制</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerate/" class="">分布式服务框架 容错机制</a>
   
 
           
@@ -474,7 +472,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/faultTolerant/throttle/ratelimitSentinel/" class="">流量治理-Sentinel</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/faultTolerant/throttle/ratelimitSentinel/" class="">流量治理-Sentinel</a>
   
 
           
@@ -492,7 +490,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/faultTolerant/throttle/ratelimit/" class="">限流-总结</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/faultTolerant/throttle/ratelimit/" class="">限流-总结</a>
   
 
           
@@ -515,7 +513,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/faultTolerant/soaGracefulStart/" class="">优雅启动</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/faultTolerant/soaGracefulStart/" class="">优雅启动</a>
   
 
           
@@ -533,7 +531,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/faultTolerant/soaGracefulClose/" class="">优雅关闭</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/faultTolerant/soaGracefulClose/" class="">优雅关闭</a>
   
 
           
@@ -569,7 +567,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/Springcloud/springTransactionInvalid/" class="">Spring  Transaction  失效</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/Springcloud/springTransactionInvalid/" class="">Spring  Transaction  失效</a>
   
 
           
@@ -587,7 +585,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/Springcloud/springCloud/" class="">SpringCloud</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/Springcloud/springCloud/" class="">SpringCloud</a>
   
 
           
@@ -605,7 +603,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/Springcloud/springboot/" class="">SpringBoot</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/Springcloud/springboot/" class="">SpringBoot</a>
   
 
           
@@ -623,7 +621,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/Springcloud/springTransaction/" class="">Spring事务</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/Springcloud/springTransaction/" class="">Spring事务</a>
   
 
           
@@ -659,7 +657,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/Gray/apiGatewayGray/" class="">API 网关-灰度发布</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/Gray/apiGatewayGray/" class="">API 网关-灰度发布</a>
   
 
           
@@ -695,7 +693,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/security/soaAuth/" class="">服务治理-鉴权</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/security/soaAuth/" class="">服务治理-鉴权</a>
   
 
           
@@ -713,7 +711,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/serviceGovernance/security/securityOAuth2/" class="">安全-OAuth2</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/security/securityOAuth2/" class="">安全-OAuth2</a>
   
 
           
@@ -766,14 +764,14 @@ https://github.com/alex-shpak/hugo-book
         
   <div class="flex align-center justify-between">
   <label for="menu-control">
-    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+    <img src="/www6vMiddleware/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
   <h3>API 网关-SpringCloud Gateway</h3>
 
   <label for="toc-control">
     
-    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    <img src="/www6vMiddleware/svg/toc.svg" class="book-icon" alt="Table of Contents" />
     
   </label>
 </div>
@@ -998,8 +996,7 @@ https://github.com/alex-shpak/hugo-book
   谓词、断言（Predicate）[1][2]
   <a class="anchor" href="#%e8%b0%93%e8%af%8d%e6%96%ad%e8%a8%80predicate12">#</a>
 </h1>
-<p>
-  <img src="./images/Predicate.png" alt="Predicate" /></p>
+<p><img src="./images/Predicate.png" alt="Predicate" /></p>
 <h1 id="过滤器filter12">
   过滤器（Filter）[1][2]
   <a class="anchor" href="#%e8%bf%87%e6%bb%a4%e5%99%a8filter12">#</a>
@@ -1084,24 +1081,19 @@ https://github.com/alex-shpak/hugo-book
 </h1>
 <ol start="0">
 <li>
-<p>
-  <a href="https://spring.io/projects/spring-cloud-gateway">spring-cloud-gateway</a></p>
+<p><a href="https://spring.io/projects/spring-cloud-gateway">spring-cloud-gateway</a></p>
 </li>
 <li>
-<p>
-  <a href="https://www.bilibili.com/video/BV11i4y1F7eu?p=8">2021最新(完整版)Gateway教学-第二代微服务网关组件SpringCloud-Gateway</a> *** V</p>
+<p><a href="https://www.bilibili.com/video/BV11i4y1F7eu?p=8">2021最新(完整版)Gateway教学-第二代微服务网关组件SpringCloud-Gateway</a> *** V</p>
 </li>
 <li>
-<p>
-  <a href="https://blog.csdn.net/a745233700/article/details/122917167">Spring Cloud Gateway 服务网关的部署与使用详细介绍</a></p>
+<p><a href="https://blog.csdn.net/a745233700/article/details/122917167">Spring Cloud Gateway 服务网关的部署与使用详细介绍</a></p>
 </li>
 <li>
-<p>
-  <a href="https://www.cnblogs.com/crazymakercircle/p/11704077.html">SpringCloud gateway （史上最全）</a> 尼恩</p>
+<p><a href="https://www.cnblogs.com/crazymakercircle/p/11704077.html">SpringCloud gateway （史上最全）</a> 尼恩</p>
 </li>
 <li>
-<p>
-  <a href="https://www.cnblogs.com/crazymakercircle/p/17436191.html">3W字吃透：微服务网关SpringCloud gateway底层原理和实操</a>   尼恩 未</p>
+<p><a href="https://www.cnblogs.com/crazymakercircle/p/17436191.html">3W字吃透：微服务网关SpringCloud gateway底层原理和实操</a>   尼恩 未</p>
 </li>
 </ol>
 </article>

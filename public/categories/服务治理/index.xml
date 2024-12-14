@@ -1,130 +1,130 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>服务治理 on Hugo Book</title>
-    <link>http://localhost:1313/categories/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/</link>
-    <description>Recent content in 服务治理 on Hugo Book</description>
+    <title>服务治理 on 中间件</title>
+    <link>http://localhost:1313/www6vMiddleware/categories/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/</link>
+    <description>Recent content in 服务治理 on 中间件</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 14 Aug 2022 19:20:42 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/www6vMiddleware/categories/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>优雅启动</title>
-      <link>http://localhost:1313/docs/serviceGovernance/faultTolerant/soaGracefulStart/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/soaGracefulStart/</link>
       <pubDate>Sun, 14 Aug 2022 14:33:12 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/faultTolerant/soaGracefulStart/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/soaGracefulStart/</guid>
       <description>&#xA;优雅启动 实现 [1]&#xD;#&#xD;调用方发起的RPC 调用流程是怎样的，调用方应用通过服务发现能够获取到服务提供方的 IP 地址，然后每次发送请求前，都需要通过负载均衡算法从连接池中选择一个可用连接。那这样的话，我们是不是就可以让负载均衡在选择连接的时候，区分一下是否是刚启动不久的应用？对于刚启动的应用，我们可以让它被选择到的概率特别低，但这个概率会随着时间的推移慢慢变大，从而实现一个动态增加流量的过程。&#xA;首先对于调用方来说，我们要知道服务提供方启动的时间，这个怎么获取呢？我这里给出两 种方法，一种是服务提供方在启动的时候，把自己启动的时间告诉注册中心；另外一种就是 注册中心收到的服务提供方的请求注册时间。&#xA;调用方通过服务发现获取服务提供方的IP地址，并通过负载均衡算法选择一个可用连接进行RPC调用。为了实现动态增加流量的过程，可以让负载均衡在选择连接时区分是否是刚启动不久的应用。可以通过以下两种方法获取服务提供方的启动时间：一种是服务提供方在启动时告知注册中心自己的启动时间，另一种是注册中心记录服务提供方的注册时间。[gpt 总结]&#xA;延迟加载 [1]&#xD;#&#xD;上述问题的解决方法是将应用启动过程中注册服务的步骤延迟到应用启动完成后，以避免在应用启动未完成时接受请求。此外，可以在应用启动完成后，预先加载和初始化相关资源，如缓存数据，以降低请求处理错误的概率。 [gpt总结]&#xA;参考&#xD;#&#xD;《14 | 优雅启动：如何避免流量打到没有启动完成的节点？》 </description>
     </item>
     <item>
       <title>优雅关闭</title>
-      <link>http://localhost:1313/docs/serviceGovernance/faultTolerant/soaGracefulClose/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/soaGracefulClose/</link>
       <pubDate>Sun, 14 Aug 2022 15:19:23 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/faultTolerant/soaGracefulClose/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/soaGracefulClose/</guid>
       <description>关闭流程&#xD;#&#xD;关闭流程的优雅处理可以通过以下步骤实现 [gpt 总结]&#xA;服务提供方在关闭时设置一个请求挡板，告知调用方正在关闭并不能处理新的请求。 当服务提供方收到新的业务请求时，直接返回一个特定的异常（如ShutdownException）给调用方。 调用方收到异常响应后，将该节点从健康列表中挪出，并自动将请求重试到其他节点，保证业务无损。 除了等待被动调用外，可以加上主动通知流程，提高实时性并避免通知失败的情况。 通过捕获操作系统的进程信号，如使用Java语言中的Runtime.addShutdownHook方法，在关闭钩子中进行关闭标识的设置和服务对象的安全关闭。 在调用链中加入挡板处理器，当新的请求到来时，判断关闭标识，如果正在关闭，则抛出特定异常。 为了完成正在处理的请求，可以在服务对象上添加引用计数器，在开始处理请求前加一，完成处理后减一，根据引用计数器判断是否有正在处理的请求。 服务对象在关闭过程中拒绝新的请求，并根据引用计数器等待正在处理的请求全部结束后真正关闭。 为避免无法正常退出应用，可以在ShutdownHook中添加超时时间控制，当超过指定时间仍未结束，则强制退出应用。 通过以上步骤，实现了服务提供方的优雅关闭，保证业务正常处理并最大限度地完成正在处理的请求。&#xA;参考&#xD;#&#xD;《13 | 优雅关闭：如何避免服务停机带来的业务损失？》</description>
     </item>
     <item>
       <title>服务发现</title>
-      <link>http://localhost:1313/docs/serviceGovernance/ConfigDiscovery/soaDiscovery/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/ConfigDiscovery/soaDiscovery/</link>
       <pubDate>Sun, 14 Aug 2022 19:20:42 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/ConfigDiscovery/soaDiscovery/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/ConfigDiscovery/soaDiscovery/</guid>
       <description>&#xA;机制&#xD;#&#xD;Overview&#xD;#&#xD;服务注册和发现&#xA;模式&#xD;#&#xD;Client-side Discovery Server-side Discovery patterns 实现&#xD;#&#xD;需求 [1]&#xD;#&#xD;RPC 框架依赖的注册中心的服务数据的一致性其实并不需要满足 CP，只要满足 AP 即可。&#xA;Framework&#xD;#&#xD;etcd - CP nacos 基于raft协议 zk - CP eureka - AP 参考&#xD;#&#xD;《08 | 服务发现：到底是要CP还是AP？》 </description>
     </item>
     <item>
       <title>服务治理-鉴权</title>
-      <link>http://localhost:1313/docs/serviceGovernance/security/soaAuth/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/security/soaAuth/</link>
       <pubDate>Wed, 10 Aug 2022 09:29:10 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/security/soaAuth/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/security/soaAuth/</guid>
       <description>&#xA;备选方案 [1]&#xD;#&#xD;分布式 Session OAuth2.0 JWT CAS OAuth2 和 JWT的关系[gpt4]&#xD;#&#xD;OAuth2和JWT都是用于实现网络应用中的授权和身份验证的技术。但是，它们在实现方式和使用场景上有所不同。&#xA;OAuth2是一个授权框架，它允许第三方应用在用户的许可下访问其私有资源。例如，一个应用可以使用OAuth2获取用户的Facebook或Google账户信息，而无需用户提供他们的用户名和密码。&#xA;JWT（JSON Web Token）则是一种开放标准（RFC 7519），它定义了一种紧凑且自包含的方式，用于在各方之间安全地传输信息作为JSON对象。这些信息可以被验证和信任，因为它们是数字签名的。&#xA;OAuth2和JWT可以一起使用。例如，当一个应用使用OAuth2获取用户的授权时，它可能会接收到一个包含JWT的访问令牌。应用可以解码这个JWT，以获取关于用户的信息，如他们的用户名或电子邮件地址。同时，因为JWT是签名的，应用可以信任这些信息的准确性。&#xA;总的来说，OAuth2和JWT都是实现网络应用授权和身份验证的重要工具，但它们在实现细节和使用方式上有所不同。&#xA;参考&#xD;#&#xD;微服务之用户鉴权中心 {% post_link &amp;lsquo;securityOAuth2&amp;rsquo; %} self </description>
     </item>
     <item>
       <title>流量治理-Sentinel</title>
-      <link>http://localhost:1313/docs/serviceGovernance/faultTolerant/throttle/ratelimitSentinel/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/throttle/ratelimitSentinel/</link>
       <pubDate>Mon, 28 Mar 2022 16:06:26 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/faultTolerant/throttle/ratelimitSentinel/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/throttle/ratelimitSentinel/</guid>
       <description>Sentinel&#xD;#&#xD;限流 API [4]&#xD;#&#xD;定义资源 资源：可以是任何东西，一个服务，服务里的方法，甚至是一段代码。 try (Entry entry = SphU.entry(&amp;#34;HelloWorld&amp;#34;)) { // Your business logic here. System.out.println(&amp;#34;hello world&amp;#34;); } catch (BlockException e) { // Handle rejected request. e.printStackTrace(); } // try-with-resources auto exit @SentinelResource(&amp;#34;HelloWorld&amp;#34;) public void helloWorld() { // 资源中的逻辑 System.out.println(&amp;#34;hello world&amp;#34;); } 定义规则 规则：Sentinel 支持以下几种规则： 流量控制规则、熔断降级规则、系统保护规则、来源访问控制规则和 热点参数规则。 private void initSystemRule() { List&amp;lt;SystemRule&amp;gt; rules = new ArrayList&amp;lt;&amp;gt;(); SystemRule rule = new SystemRule(); // 规则 rule.setHighestSystemLoad(10); rules.add(rule); SystemRuleManager.</description>
     </item>
     <item>
       <title>API 网关-灰度发布</title>
-      <link>http://localhost:1313/docs/serviceGovernance/Gray/apiGatewayGray/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Gray/apiGatewayGray/</link>
       <pubDate>Wed, 23 Mar 2022 21:31:49 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/Gray/apiGatewayGray/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Gray/apiGatewayGray/</guid>
       <description>灰度发布 策略 [2]&#xD;#&#xD;基于权重 百分比 version &amp;hellip; 基于springcloud gateway + nacos实现灰度发布[1]&#xD;#&#xD;spring: application: name: gateway-reactor-gray cloud: nacos: discovery: server-addr: localhost:8848 gateway: discovery: locator: enabled: true lower-case-service-id: true routes: - id: hello-consumer uri: grayLb://hello-consumer ## 灰度负载均衡 predicates: - Path=/hello/** public class GrayLoadBalancer implements ReactorServiceInstanceLoadBalancer { ... private Response&amp;lt;ServiceInstance&amp;gt; getInstanceResponse(List&amp;lt;ServiceInstance&amp;gt; instances,HttpHeaders headers) { if (instances.isEmpty()) { return getServiceInstanceEmptyResponse(); } else { return getServiceInstanceResponseWithWeight(instances); // } } /** * 根据版本进行分发 */ private Response&amp;lt;ServiceInstance&amp;gt; getServiceInstanceResponseByVersion(List&amp;lt;ServiceInstance&amp;gt; instances, HttpHeaders headers) { String versionNo = headers.</description>
     </item>
     <item>
       <title>API 网关-SpringCloud Gateway</title>
-      <link>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/</link>
       <pubDate>Tue, 22 Mar 2022 13:58:48 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/</guid>
       <description>Features [0]&#xD;#&#xD;Built on Spring Framework 5, Project Reactor and Spring Boot 2.0 Able to match routes on any request attribute. Predicates and filters are specific to routes. Circuit Breaker integration. Spring Cloud DiscoveryClient integration Easy to write Predicates and Filters Request Rate Limiting Path Rewriting 核心概念 [1][2]&#xD;#&#xD;路由（Route）&#xA;id：路由标识，要求唯一，名称任意（默认值 uuid，一般不用，需要自定义） uri：请求最终被转发到的目标地址 order： 路由优先级，数字越小，优先级越高 predicates：断言数组，即判断条件，如果返回值是boolean，则转发请求到 uri 属性指定的服务中 filters：过滤器数组，在请求传递过程中，对请求做一些修改 谓词、断言（Predicate） 允许开发人员匹配 HTTP 请求中的内容，比如请求头或请求参数，最后根据匹配结果返回一个布尔值。参照 Java8 的新特性Predicate.&#xA;过滤器（Filter） 可以在返回请求之前或之后修改请求和响应的内容。&#xA;路由（Route）[1][2]&#xD;#&#xD;服务发现-集成nacos服务注册中心 [2]&#xD;#&#xD;服务路由配置 spring: cloud: gateway: routes: - id: gateway-provider_1 ## 使用了lb形式，从注册中心负载均衡的获取uri uri: lb://gateway-provider ## 配置断言 predicates: - Path=/gateway/provider/** filters: - AddResponseHeader=X-Response-Foo, Bar 自动路由配置 # enabled：默认为false，设置为true表明spring cloud gateway开启服务发现和路由的功能，网关自动根据注册中心的服务名为每个服务创建一个router，将以服务名开头的请求路径转发到对应的服务 spring.</description>
     </item>
     <item>
       <title>API 网关-apisix</title>
-      <link>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawayApisix/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGatawayApisix/</link>
       <pubDate>Tue, 22 Mar 2022 13:58:23 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawayApisix/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGatawayApisix/</guid>
       <description>&#xA;apisix特性&#xD;#&#xD;Core api聚合 灰度发布 稳定性 服务熔断 故障注入 流量复制 云原生 多云，混合云 容器友好 随意扩缩容 apisix功能&#xD;#&#xD;动态配置，不用reload&#xA;路由, ssl证书，上游，插件&amp;hellip; 插件化(40个)&#xA;身份验证, 安全, 日志, 可观察性&amp;hellip; 对接Prom，zipkin， skywalking grpc代理和协议转换(rest &amp;lt;-&amp;gt; gprc) apisix只用了nginx的网络层 apisix使用场景&#xD;#&#xD;处理L4, L7层流量 代替nginx处理南北流量 代替envoy处理东西流量 k8s ingress controller 参考&#xD;#&#xD;【云原生学院 #3】基于 Apache APISIX 的全流量 API 网关 *** </description>
     </item>
     <item>
       <title>API Gateway网关</title>
-      <link>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGateway/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGateway/</link>
       <pubDate>Fri, 21 Jan 2022 10:31:46 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGateway/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGateway/</guid>
       <description>&#xA;特性&#xD;#&#xD;路由 灰度发布 反向代理,负载均衡 鉴权 限流 监控 缓存 分类&#xD;#&#xD;入口网关 出口网关 框架&#xD;#&#xD;产品 技术 apisix self lua + Nginx Kong lua + Nginx Zuul Spring Cloud Netflix Gateway self Spring Cloud Traefik Golang 实现 [3]&#xD;#&#xD;扩展性&#xA;责任链模式 - Zuul filter, Envoy filter 性能&#xA;多路 I/O 复用模型 和 线程池 可用性&#xA;线程池 服务隔离 API Gateway+BFF&#xD;#&#xD;API Gateway + BFF [3]&#xD;#&#xD;流量网关 + 业务网关&#xA;BFF 聚合网关 [2]&#xD;#&#xD;参考&#xD;#&#xD;使用 API 网关构建微服务 微服务架构：BFF和网关是如何演化出来的？ 《27 | API网关：系统的门面要如何做呢？》 百亿规模API网关服务Shepherd的设计与实现 点评 未 Go to Page self </description>
     </item>
     <item>
       <title>服务治理-分布式配置</title>
-      <link>http://localhost:1313/docs/serviceGovernance/ConfigDiscovery/config/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/ConfigDiscovery/config/</link>
       <pubDate>Mon, 27 Jul 2020 22:11:35 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/ConfigDiscovery/config/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/ConfigDiscovery/config/</guid>
       <description>&#xA;需求&#xD;#&#xD;对实时性要求不高 对可用性要求高 产品&#xD;#&#xD;产品 存储 Disconf 百度 mysql Apollo 携程 mysql QConf 360 zookeeper 微博 redis 美图 etcd spring cloud config git 参考：&#xD;#&#xD;Spring Boot与Kubernetes云原生微服务实践 杨波 </description>
     </item>
     <item>
       <title>微服务 总结</title>
-      <link>http://localhost:1313/docs/serviceGovernance/Overview/microservice/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Overview/microservice/</link>
       <pubDate>Mon, 09 Sep 2019 15:02:28 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/Overview/microservice/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Overview/microservice/</guid>
       <description>目录&#xD;#&#xD;微服务 定义&#xD;#&#xD;In short, the microservice architectural style [1] is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API. These services are built around business capabilities and independently deployable by fully automated deployment machinery. There is a bare minimum of centralized management of these services, which may be written in different programming languages and use different data storage technologies.</description>
     </item>
     <item>
       <title>容错框架</title>
-      <link>http://localhost:1313/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerateFramework/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerateFramework/</link>
       <pubDate>Fri, 07 Oct 2016 06:40:26 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerateFramework/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerateFramework/</guid>
       <description>&#xA;Hystrix实现和容错模式&#xD;#&#xD;Hystrix实现和容错模式 熔断【熔断器模式】 三个状态 开 闭 半开 模块 熔断请求判断机制算法 维护10个bucket,每秒一个bucket,每个blucket记录成功,失败,超时,拒绝的状态。 超时【超时与重试模式】 失败（异常） 成功 拒绝 线程池拒绝【1】 信号量拒绝【2】 默认错误超过50%且10秒内超过20个请求进行中断拦截 熔断恢复 每隔5s允许部分请求通过，若请求都是健康的（RT&amp;lt;250ms）则对请求健康恢复 熔断报警和Metric上报 流控【限流模式】 控制速率 控制并发 隔离【舱壁隔离模式】 Hystrix实现 线程池隔离 【1】 信号量隔离【2】 回退【回退模式】 快速失败（Fail Fast ） 无声失败（Fail Silent ） 返回默认值（Fallback Static ） Resilience4j [1]&#xD;#&#xD;断路器（Circuit Breaker） 重试（Retry） 限时器（Time Limiter） 限流器（Rate Limiter） 隔板（BulkHead） 参考&#xD;#&#xD;Hystrix&#xD;#&#xD;微服务熔断与隔离 楚岩 Hystrix技术解析 王新栋 &amp;laquo;亿级流量网站架构核心技术&amp;raquo; 5.8节 张开涛 Hystrix 使用与分析 zhangyijun Resilience4j&#xD;#&#xD;Resilience4j 比 Hystrix 好在哪里？ </description>
     </item>
     <item>
       <title>限流-总结</title>
-      <link>http://localhost:1313/docs/serviceGovernance/faultTolerant/throttle/ratelimit/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/throttle/ratelimit/</link>
       <pubDate>Mon, 26 Sep 2016 06:34:48 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/faultTolerant/throttle/ratelimit/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/throttle/ratelimit/</guid>
       <description>&#xA;限流总结&#xD;#&#xD;限流算法&#xD;#&#xD;流控算法 原理 实现 实现复杂度 优势 缺点 计数器法 简单 缺点 临界问题,不能应对突发请求 滑动窗口 滑动时间窗口划成了多格，粒度细; 解决了计数器法的缺点; 基于时间窗口[5] 简单 令牌桶算法 Guava RateLimiter [7] 复杂 能够处理突发请求; 允许某些流量的突发，被业界采用地较多 漏桶算法 漏桶算法[6] 代码[0] 简单 队列算法 FIFO队列; 权重队列; Linux tc 队列长度很关键 分布式限流&#xD;#&#xD;分布式计数器&#xA;实现 Redis(服务端)+Lua(客户端) 限流网关&#xA;缺陷 服务之间的调用不一定走网关 参考&#xD;#&#xD;漏桶算法实现 限流系统如何发现系统的热点 中间件小哥 *** 接口限流算法总结 夜有所思，日有所梦 聊聊高并发系统之限流特技 张开涛 服务化体系之－限流 江南白衣 失效 《应用 6：断尾求生 —— 简单限流 》 Redis 深度历险：核心原理与应用实践 《应用 7：一毛不拔 —— 漏斗限流》 Redis 深度历险：核心原理与应用实践 有代码实现 Guava RateLimiter源码解析 林舍 manerfan 淘宝应用柔性架构的探索 自适应负载调节 </description>
     </item>
     <item>
       <title>超时和重试 总结</title>
-      <link>http://localhost:1313/docs/serviceGovernance/faultTolerant/faultTolerant/soaTimeout/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTimeout/</link>
       <pubDate>Sun, 17 Jan 2016 12:23:58 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/faultTolerant/faultTolerant/soaTimeout/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTimeout/</guid>
       <description>&#xA;关键词： 超时, 降级, 重试&#xA;超时 和 重试&#xD;#&#xD;超时和延迟的原因: 服务端获得请求了，但超时了; 服务端没获得请求，请求失败了， 超时了; 重试方式: 指数级退避 Exponential Blackoff[3][4] 超时类型&#xD;#&#xD;类型 客户端调用超时 服务器端调用超时 提供端/消费端与注册中心之间超时 超时后策略&#xD;#&#xD;超时后策略 超时+快速失败 超时后不重试 超时+降级failback 返回托底（返回历史数据/静态数据/缓存数据）数据，等待页或者错误页 超时+熔断 超时后重试，重试不行后熔断服务 降级&#xD;#&#xD;降级 非核心服务在超时后可以自动降级 超时时间和超时重试次数 最佳实践&#xD;#&#xD;最佳实践 不设置超时 慢请求累积导致连锁反应，甚至造成应用雪崩 推荐值 稍大于压测或者线上监控看到的TP99的响应时间 超时时间太长-不恰当设置 导致本应成功的调用却失败了。超时的时候服务资源没有释放 超时时间太短- 不恰当设置 服务调用成功率降低 最重要：网络连接/读/写的超时 用户能忍受的最长超时时间 - 用户体验 最坏情况下的响应时间=重试次数*单次超时时间 依赖 service重启时大量超时的问题 服务预热功能。延迟发布 客户端的超时时间&amp;lt;服务端的超时 可以在服务端实施限流/降级 多级依赖关系 如A调用B，B调用C 超时设置应该是A&amp;gt;B&amp;gt;C,否则可能会一直重试，引起DDos攻击效果 重试&#xD;#&#xD;重试 客户端 心跳超时 关闭链路，然后由客户端发起重新连接的操作，保证链路能恢复到正常的状态 有负载均衡的中间件，要考虑配置心跳/存活检查 客户端调用超时 重试策略,保证服务调用成功 - failover 摘掉不存活节点 尝试其他分组服务 尝试其他机房服务 服务端 读服务天然适合重试 写服务大多不能重试 幂等 Zookeeper客户端会话超时 - 服务注册反注册 Zookeeper服务端，将该会话对应的Node删除，删除事件通知到所有监听该Node的消费者 重试次数太多 导致多倍请求流量，模拟了DDos攻击 参考&#xD;#&#xD;《亿级流量网站架构核心技术》 张开涛 Hedwig文档 网络重试中的 指数退避抖动 算法 Exponential Backoff And Jitter AWS 中的错误重试和指数退避 </description>
     </item>
     <item>
       <title>京东服务框架JSF服务提供者线程模型</title>
-      <link>http://localhost:1313/docs/serviceGovernance/threadModel/jsfThreadModel/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/threadModel/jsfThreadModel/</link>
       <pubDate>Thu, 09 Jul 2015 17:14:28 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/threadModel/jsfThreadModel/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/threadModel/jsfThreadModel/</guid>
       <description>&#xA;京东服务框架JSF&#xD;#&#xD;JSF是京东基础架构组的服务化中间件产品，全名是Jingdong Service Framework（中文名：杰夫）。 JSF整体是依据netty来构建的，本文从代码层面简单介绍一下JSF服务端的线程模型。&#xA;1.JSF的服务端线程模型整体上是 boss线程池 + worker线程池 + 业务线程池。boss线程池和worker线程池称为Reactor线程池。&#xD;#&#xD;三类线程池各自的参数详见下图1。&#xA;worker线程池和业务线程池之间的关系详见下图2，在图中可以看到业务线程和worker线程是解耦的，请求放入业务线程后，IO线程即worker线程就返回了，业务线程和I/O线程隔离。 在没有解耦IO线程和业务ChannelHandler的情况时，如果在业务ChannelHandler中进行数据库等同步I/O操作，很有可能会导致IO线程中的pipeline链路被阻塞。&#xA;2. 图3是boss线程池， 线程数为Max(4,cpu/2)，用户不可以配置&#xD;#&#xD;3. 图4是worker线程池， 线程数为Max(8,cpu+1)，用户可以配置&#xD;#&#xD;4.图5和图6是业务线程池的构建，cached线程池大小是20-200，默认queue的大小是0。 任务来了直接分配线程，直到线程池满，得不到执行线程抛异常。&#xD;#&#xD;图7中一个服务端口对应一个业务线程池。&#xA;5. 在ChannelPipeline中ServerHandler根据服务端的配置获取对应的业务线程池，然后在ServerHandler的handlerRequest中提交业务任务，默认的任务是JSFTask。&#xD;#&#xD;具体实现如图8,9,10.&#xA;可以看到，JSF服务提供者线程模型整体还是按照boss+worker+biz这种netty官方推荐的方式构建的。&#xA;参考：&#xD;#&#xD;京东 jsf 源代码和文档 Netty案例集锦之多线程篇（续） 李林锋 </description>
     </item>
     <item>
       <title>分布式服务框架 容错机制</title>
-      <link>http://localhost:1313/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerate/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerate/</link>
       <pubDate>Wed, 17 Jun 2015 17:08:05 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerate/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerate/</guid>
       <description>&#xA;关键词： 容错, 降级, 隔离, 超时, 重试, 高可用, 监控, 开关&#xA;Overview&#xD;#&#xD;超时重试机制[self 1][self 2] 限流 熔断机制 隔离 降级（本地缓存） 流量调度、负载均衡 微服务熔断与隔离 降级&#xD;#&#xD;降级策略 场景 实现 降低一致性约束 [1] 关闭非核心业务 人工开关 （非核心服务）, 强制降级,简化功能 开关存放位置:配置文件,数据库, Redis/Zk 关闭非核心业务 自动开关(非核心服务), 超时降级 1. 统计失败次数降级-不稳定的api&#xA;2. 限流降级-大促秒杀&#xA;3. 实现-熔断器 超时和重试 Retry&#xD;#&#xD;超时和重试 网络连接/读/写的超时时间（重要） 服务 读服务 - 可重试 写服务 - 幂等可重试 服务 客户端超时与重试 服务端超时 - 业务超时 任务型 服务调用型 超时后策略 failover 其它分组 其它机房 failcache 托底默认数据 等待页/错误页 降级 超时时间 太短 调用成功率降低 太长 后续正常请求挤压 经验值 稍微大于tp99的响应时间 集群容错&#xD;#&#xD;集群容错 Fail over（重试其他节点） 超时异常 Fail fast（快速失败） Fail cache（重试故障节点）（hedwig） 网路异常 Fail back（回退） 隔离 BulkHead&#xD;#&#xD;隔离 线程池隔离(hystirx) vm隔离（资源隔离） 物理机隔离 集群隔离 分组隔离 机房隔离 框架&#xD;#&#xD;框架 淘宝Dubbo 一号店Hedwig 京东JSF 点评pegion 唯品会OSP 状态监测&#xD;#&#xD;状态监测 服务注册中心状态监测（hedwig） 服务提供者和消费者之间的链路有效性检测（pegion） 服务健康检查（打分） 反推回消费者的路由表 流量控制（算法） Rate Limiter&#xD;#&#xD;流量控制（算法）　限流算法 令牌桶（控制入口） 漏桶（控制出口） 计数器(hedwig) 接口的总请求数（hedwig客户端） 接口的时间窗口请求数（hedwig服务端） 平滑限流,整形（netty） 整体流控 静态流控(整体qps固定) 预先分配 动态配额分配置（推） 动态配额申请制（拉） 动态流控 分级流控-拒绝流量 连接控制 并发控制（线程的并发执行数） 参考&#xD;#&#xD;self&#xD;#&#xD;{% post_link &amp;lsquo;soaTolerate&amp;rsquo; %} self {% post_link &amp;lsquo;soaTimeout&amp;rsquo; %} self </description>
     </item>
     <item>
       <title>分布式服务框架功能</title>
-      <link>http://localhost:1313/docs/serviceGovernance/Overview/soaFeature/</link>
+      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Overview/soaFeature/</link>
       <pubDate>Thu, 07 May 2015 17:01:07 +0000</pubDate>
-      <guid>http://localhost:1313/docs/serviceGovernance/Overview/soaFeature/</guid>
+      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Overview/soaFeature/</guid>
       <description>负载均衡 RR Least Connections Least Time “Power of Two Choices” 参考&#xD;#&#xD;NGINX and the “Power of Two Choices” Load-Balancing Algorithm 【直播回放】海量并发微服务框架设计 重要公式</description>
     </item>
   </channel>

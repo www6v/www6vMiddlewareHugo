@@ -2,254 +2,254 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/docs/serviceGovernance/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/</loc>
     <lastmod>2022-08-14T19:20:42+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/Overview/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Overview/</loc>
     <lastmod>2019-09-09T15:02:28+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/faultTolerant/faultTolerant/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/</loc>
     <lastmod>2016-10-07T06:40:26+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/demo/chaptor1/my-first-doc/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/demo/chaptor1/my-first-doc/</loc>
   </url><url>
-    <loc>http://localhost:1313/demo/chaptor1/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/demo/chaptor1/</loc>
   </url><url>
-    <loc>http://localhost:1313/demo/chaptor3/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/demo/chaptor3/</loc>
   </url><url>
-    <loc>http://localhost:1313/demo/chaptor2/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/demo/chaptor2/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/faultTolerant/throttle/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/throttle/</loc>
     <lastmod>2022-03-28T16:06:26+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/API-Gateway/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/</loc>
     <lastmod>2022-03-22T13:58:48+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/ConfigDiscovery/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/ConfigDiscovery/</loc>
     <lastmod>2022-08-14T19:20:42+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/faultTolerant/soaGracefulStart/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/soaGracefulStart/</loc>
     <lastmod>2022-08-14T14:33:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/faultTolerant/soaGracefulClose/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/soaGracefulClose/</loc>
     <lastmod>2022-08-14T15:19:23+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/loadBalance/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/loadBalance/</loc>
     <lastmod>2022-05-06T11:29:37+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/threadModel/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/threadModel/</loc>
     <lastmod>2015-07-09T17:14:28+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/faultTolerant/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/</loc>
     <lastmod>2022-08-14T15:19:23+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/Springcloud/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Springcloud/</loc>
     <lastmod>2022-07-20T14:30:49+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/Gray/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Gray/</loc>
     <lastmod>2022-03-23T21:31:49+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/security/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/security/</loc>
     <lastmod>2022-08-10T09:29:10+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/</loc>
     <lastmod>2022-08-14T19:20:42+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/</loc>
     <lastmod>2022-08-14T19:20:42+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/</loc>
     <lastmod>2022-08-14T19:20:42+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/</loc>
     <lastmod>2022-08-14T19:20:42+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%9C%8D%E5%8A%A1%E5%8F%91%E7%8E%B0/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E6%9C%8D%E5%8A%A1%E5%8F%91%E7%8E%B0/</loc>
     <lastmod>2022-08-14T19:20:42+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/ConfigDiscovery/soaDiscovery/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/ConfigDiscovery/soaDiscovery/</loc>
     <lastmod>2022-08-14T19:20:42+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/</loc>
     <lastmod>2022-08-14T19:20:42+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/</loc>
     <lastmod>2022-08-14T19:20:42+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E4%BC%98%E9%9B%85%E5%85%B3%E9%97%AD/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/%E4%BC%98%E9%9B%85%E5%85%B3%E9%97%AD/</loc>
     <lastmod>2022-08-14T15:19:23+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E4%BC%98%E9%9B%85%E5%85%B3%E9%97%AD/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E4%BC%98%E9%9B%85%E5%85%B3%E9%97%AD/</loc>
     <lastmod>2022-08-14T15:19:23+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/db/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/db/</loc>
     <lastmod>2022-08-14T14:33:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E4%BC%98%E9%9B%85%E5%90%AF%E5%8A%A8/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E4%BC%98%E9%9B%85%E5%90%AF%E5%8A%A8/</loc>
     <lastmod>2022-08-14T14:33:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/security/soaAuth/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/security/soaAuth/</loc>
     <lastmod>2022-08-10T09:29:10+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E9%89%B4%E6%9D%83/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E9%89%B4%E6%9D%83/</loc>
     <lastmod>2022-08-10T09:29:10+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/spring/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/spring/</loc>
     <lastmod>2022-07-20T14:30:49+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/spring/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/spring/</loc>
     <lastmod>2022-07-20T14:30:49+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/Springcloud/springTransactionInvalid/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Springcloud/springTransactionInvalid/</loc>
     <lastmod>2022-07-20T14:30:49+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E4%B8%AD%E9%97%B4%E4%BB%B6/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E4%B8%AD%E9%97%B4%E4%BB%B6/</loc>
     <lastmod>2022-07-20T14:30:49+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E4%BA%8B%E5%8A%A1/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E4%BA%8B%E5%8A%A1/</loc>
     <lastmod>2022-07-20T14:30:49+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/</loc>
     <lastmod>2022-05-06T11:29:37+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/</loc>
     <lastmod>2022-05-06T11:29:37+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/loadBalance/loadBalance/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/loadBalance/loadBalance/</loc>
     <lastmod>2022-05-06T11:29:37+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%B5%81%E9%87%8F%E6%B2%BB%E7%90%86/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/%E6%B5%81%E9%87%8F%E6%B2%BB%E7%90%86/</loc>
     <lastmod>2022-03-28T16:06:26+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%B5%81%E9%87%8F%E6%B2%BB%E7%90%86/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E6%B5%81%E9%87%8F%E6%B2%BB%E7%90%86/</loc>
     <lastmod>2022-03-28T16:06:26+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/faultTolerant/throttle/ratelimitSentinel/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/throttle/ratelimitSentinel/</loc>
     <lastmod>2022-03-28T16:06:26+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/API-Gateway/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/API-Gateway/</loc>
     <lastmod>2022-03-23T21:31:49+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/Gray/apiGatewayGray/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Gray/apiGatewayGray/</loc>
     <lastmod>2022-03-23T21:31:49+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/API%E7%BD%91%E5%85%B3/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/API%E7%BD%91%E5%85%B3/</loc>
     <lastmod>2022-03-23T21:31:49+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/</loc>
     <lastmod>2022-03-22T13:58:48+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawayApisix/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGatawayApisix/</loc>
     <lastmod>2022-03-22T13:58:23+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGateway/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGateway/</loc>
     <lastmod>2022-01-21T10:31:46+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/springcloud/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/springcloud/</loc>
     <lastmod>2021-06-06T16:07:33+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/Springcloud/springCloud/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Springcloud/springCloud/</loc>
     <lastmod>2021-06-06T16:07:33+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</loc>
     <lastmod>2021-06-06T16:07:33+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2020-07-27T22:11:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2020-07-27T22:11:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/ConfigDiscovery/config/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/ConfigDiscovery/config/</loc>
     <lastmod>2020-07-27T22:11:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/Nginx/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/Nginx/</loc>
     <lastmod>2020-03-26T12:07:27+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/nginx/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/nginx/</loc>
     <lastmod>2020-03-26T12:07:27+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/loadBalance/nginxOptimize/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/loadBalance/nginxOptimize/</loc>
     <lastmod>2020-03-26T12:07:27+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/OAuth2/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/OAuth2/</loc>
     <lastmod>2020-03-20T17:28:48+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/OAuth2/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/OAuth2/</loc>
     <lastmod>2020-03-20T17:28:48+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E5%AE%89%E5%85%A8/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E5%AE%89%E5%85%A8/</loc>
     <lastmod>2020-03-20T17:28:48+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/security/securityOAuth2/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/security/securityOAuth2/</loc>
     <lastmod>2020-03-20T17:28:48+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/springboot/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/springboot/</loc>
     <lastmod>2019-09-20T15:02:28+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/Springcloud/springboot/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Springcloud/springboot/</loc>
     <lastmod>2019-09-20T15:02:28+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</loc>
     <lastmod>2019-09-09T15:02:28+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/Overview/microservice/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Overview/microservice/</loc>
     <lastmod>2019-09-09T15:02:28+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/loadBalance/nginx/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/loadBalance/nginx/</loc>
     <lastmod>2019-08-22T02:17:53+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E5%AE%B9%E9%94%99/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E5%AE%B9%E9%94%99/</loc>
     <lastmod>2016-10-07T06:40:26+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerateFramework/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerateFramework/</loc>
     <lastmod>2016-10-07T06:40:26+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E9%99%90%E6%B5%81/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/%E9%99%90%E6%B5%81/</loc>
     <lastmod>2016-09-26T06:34:48+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E9%99%90%E6%B5%81/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E9%99%90%E6%B5%81/</loc>
     <lastmod>2016-09-26T06:34:48+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/faultTolerant/throttle/ratelimit/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/throttle/ratelimit/</loc>
     <lastmod>2016-09-26T06:34:48+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%B6%85%E6%97%B6/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/%E8%B6%85%E6%97%B6/</loc>
     <lastmod>2016-01-17T12:23:58+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E8%B6%85%E6%97%B6/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E8%B6%85%E6%97%B6/</loc>
     <lastmod>2016-01-17T12:23:58+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/faultTolerant/faultTolerant/soaTimeout/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTimeout/</loc>
     <lastmod>2016-01-17T12:23:58+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/threadModel/jsfThreadModel/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/threadModel/jsfThreadModel/</loc>
     <lastmod>2015-07-09T17:14:28+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</loc>
     <lastmod>2015-07-09T17:14:28+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%9C%8D%E5%8A%A1%E6%A1%86%E6%9E%B6/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/%E6%9C%8D%E5%8A%A1%E6%A1%86%E6%9E%B6/</loc>
     <lastmod>2015-07-09T17:14:28+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%A1%88%E4%BE%8B-%E4%BA%AC%E4%B8%9CJSF/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E6%A1%88%E4%BE%8B-%E4%BA%AC%E4%B8%9CJSF/</loc>
     <lastmod>2015-07-09T17:14:28+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerate/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerate/</loc>
     <lastmod>2015-06-17T17:08:05+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%AE%B9%E9%94%99/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/tags/%E5%AE%B9%E9%94%99/</loc>
     <lastmod>2015-06-17T17:08:05+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/Overview/soaFeature/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Overview/soaFeature/</loc>
     <lastmod>2015-05-07T17:01:07+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E5%8A%9F%E8%83%BD/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E5%8A%9F%E8%83%BD/</loc>
     <lastmod>2015-05-07T17:01:07+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/Springcloud/springTransaction/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Springcloud/springTransaction/</loc>
     <lastmod>2015-03-16T14:52:34+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/demo/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/demo/</loc>
   </url>
 </urlset>
