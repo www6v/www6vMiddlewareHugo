@@ -53,7 +53,7 @@
     <item>
       <title>API Gateway</title>
       <link>http://localhost:1313/tags/API-Gateway/</link>
-      <pubDate>Tue, 22 Mar 2022 13:58:48 +0000</pubDate>
+      <pubDate>Wed, 23 Mar 2022 21:31:49 +0000</pubDate>
       <guid>http://localhost:1313/tags/API-Gateway/</guid>
       <description></description>
     </item>
@@ -76,6 +76,13 @@
       <link>http://localhost:1313/tags/Nginx/</link>
       <pubDate>Thu, 26 Mar 2020 12:07:27 +0000</pubDate>
       <guid>http://localhost:1313/tags/Nginx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OAuth2</title>
+      <link>http://localhost:1313/tags/OAuth2/</link>
+      <pubDate>Fri, 20 Mar 2020 17:28:48 +0000</pubDate>
+      <guid>http://localhost:1313/tags/OAuth2/</guid>
       <description></description>
     </item>
     <item>

@@ -46,6 +46,12 @@
     <loc>http://localhost:1313/docs/serviceGovernance/Springcloud/</loc>
     <lastmod>2022-07-20T14:30:49+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/docs/serviceGovernance/Gray/</loc>
+    <lastmod>2022-03-23T21:31:49+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/serviceGovernance/security/</loc>
+    <lastmod>2022-08-10T09:29:10+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2022-08-14T19:20:42+00:00</lastmod>
   </url><url>
@@ -82,6 +88,12 @@
     <loc>http://localhost:1313/categories/%E4%BC%98%E9%9B%85%E5%90%AF%E5%8A%A8/</loc>
     <lastmod>2022-08-14T14:33:12+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/docs/serviceGovernance/security/soaAuth/</loc>
+    <lastmod>2022-08-10T09:29:10+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E9%89%B4%E6%9D%83/</loc>
+    <lastmod>2022-08-10T09:29:10+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/spring/</loc>
     <lastmod>2022-07-20T14:30:49+00:00</lastmod>
   </url><url>
@@ -116,12 +128,15 @@
     <lastmod>2022-03-28T16:06:26+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/API-Gateway/</loc>
-    <lastmod>2022-03-22T13:58:48+00:00</lastmod>
+    <lastmod>2022-03-23T21:31:49+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/</loc>
-    <lastmod>2022-03-22T13:58:48+00:00</lastmod>
+    <loc>http://localhost:1313/docs/serviceGovernance/Gray/apiGatewayGray/</loc>
+    <lastmod>2022-03-23T21:31:49+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/API%E7%BD%91%E5%85%B3/</loc>
+    <lastmod>2022-03-23T21:31:49+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/</loc>
     <lastmod>2022-03-22T13:58:48+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/serviceGovernance/API-Gateway/apiGatawayApisix/</loc>
@@ -156,6 +171,18 @@
   </url><url>
     <loc>http://localhost:1313/docs/serviceGovernance/loadBalance/nginxOptimize/</loc>
     <lastmod>2020-03-26T12:07:27+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/OAuth2/</loc>
+    <lastmod>2020-03-20T17:28:48+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/OAuth2/</loc>
+    <lastmod>2020-03-20T17:28:48+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E5%AE%89%E5%85%A8/</loc>
+    <lastmod>2020-03-20T17:28:48+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/serviceGovernance/security/securityOAuth2/</loc>
+    <lastmod>2020-03-20T17:28:48+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/springboot/</loc>
     <lastmod>2019-09-20T15:02:28+00:00</lastmod>
