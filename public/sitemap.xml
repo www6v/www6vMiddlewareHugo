@@ -2,11 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%8D%95%E6%9C%BA/</loc>
+    <lastmod>2023-08-15T12:42:56+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/</loc>
     <lastmod>2022-08-14T19:20:42+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/message/Overview/</loc>
     <lastmod>2022-05-12T22:17:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%8D%95%E6%9C%BA/mysqlTransactionAndLock/</loc>
+    <lastmod>2020-08-14T17:22:20+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Overview/</loc>
     <lastmod>2019-09-09T15:02:28+00:00</lastmod>
@@ -46,6 +52,12 @@
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/</loc>
     <lastmod>2022-03-22T13:58:48+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%8D%95%E6%9C%BA/mysqlUpdate/</loc>
+    <lastmod>2020-06-26T13:41:44+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/</loc>
+    <lastmod>2023-08-15T12:42:56+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/ConfigDiscovery/</loc>
     <lastmod>2022-08-14T19:20:42+00:00</lastmod>
   </url><url>
@@ -54,6 +66,9 @@
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/message/Overview/mqOrdering/</loc>
     <lastmod>2021-05-19T12:02:22+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%8D%95%E6%9C%BA/mysqlReliability/</loc>
+    <lastmod>2020-06-21T18:14:49+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/message/Kafka/kafkaConsumer/</loc>
     <lastmod>2016-06-25T18:46:27+00:00</lastmod>
@@ -67,17 +82,29 @@
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/loadBalance/</loc>
     <lastmod>2022-05-06T11:29:37+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%8D%95%E6%9C%BA/mysqlIndex/</loc>
+    <lastmod>2019-09-10T16:02:39+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/message/Kafka/kafkaReliability/</loc>
     <lastmod>2016-07-05T06:20:57+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/threadModel/</loc>
     <lastmod>2015-07-09T17:14:28+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%8D%95%E6%9C%BA/mysqlTransaction/</loc>
+    <lastmod>2015-02-21T14:44:33+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/</loc>
     <lastmod>2022-08-14T15:19:23+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%8D%95%E6%9C%BA/mysqlLog/</loc>
+    <lastmod>2022-02-27T22:25:29+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/message/Kafka/kafkaIndex/</loc>
     <lastmod>2021-05-15T15:51:57+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%8D%95%E6%9C%BA/mysqlDeadLock/</loc>
+    <lastmod>2023-08-15T12:42:56+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Springcloud/</loc>
     <lastmod>2022-07-20T14:30:49+00:00</lastmod>
@@ -87,6 +114,9 @@
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/message/Kafka/kafkaZeroCopy/</loc>
     <lastmod>2021-05-16T17:19:54+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%8D%95%E6%9C%BA/mysqlMasterSlaveDelay/</loc>
+    <lastmod>2022-08-16T16:01:58+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/security/</loc>
     <lastmod>2022-08-10T09:29:10+00:00</lastmod>
@@ -107,16 +137,28 @@
     <lastmod>2022-05-04T18:29:58+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/categories/</loc>
-    <lastmod>2022-08-14T19:20:42+00:00</lastmod>
+    <lastmod>2023-08-15T12:42:56+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/</loc>
-    <lastmod>2022-08-14T19:20:42+00:00</lastmod>
+    <lastmod>2023-08-15T12:42:56+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/tags/mysql/</loc>
+    <lastmod>2023-08-15T12:42:56+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/categories/mysql/</loc>
+    <lastmod>2023-08-15T12:42:56+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/tags/</loc>
-    <lastmod>2022-08-14T19:20:42+00:00</lastmod>
+    <lastmod>2023-08-15T12:42:56+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/</loc>
-    <lastmod>2022-08-14T19:20:42+00:00</lastmod>
+    <lastmod>2023-08-15T12:42:56+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E5%85%B3%E7%B3%BB%E5%9E%8B/</loc>
+    <lastmod>2023-08-15T12:42:56+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <lastmod>2023-08-15T12:42:56+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/categories/%E6%9C%8D%E5%8A%A1%E5%8F%91%E7%8E%B0/</loc>
     <lastmod>2022-08-14T19:20:42+00:00</lastmod>

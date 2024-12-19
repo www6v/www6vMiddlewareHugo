@@ -6,8 +6,15 @@
     <description>Recent content in Tags on 中间件</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Aug 2022 19:20:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Aug 2023 12:42:56 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/www6vMiddleware/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mysql</title>
+      <link>http://localhost:1313/www6vMiddleware/tags/mysql/</link>
+      <pubDate>Tue, 15 Aug 2023 12:42:56 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/tags/mysql/</guid>
+      <description></description>
+    </item>
     <item>
       <title>服务治理</title>
       <link>http://localhost:1313/www6vMiddleware/tags/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/</link>

@@ -6,8 +6,29 @@
     <description>Recent content in Categories on 中间件</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Aug 2022 19:20:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Aug 2023 12:42:56 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/www6vMiddleware/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mysql</title>
+      <link>http://localhost:1313/www6vMiddleware/categories/mysql/</link>
+      <pubDate>Tue, 15 Aug 2023 12:42:56 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/categories/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>关系型</title>
+      <link>http://localhost:1313/www6vMiddleware/categories/%E5%85%B3%E7%B3%BB%E5%9E%8B/</link>
+      <pubDate>Tue, 15 Aug 2023 12:42:56 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/categories/%E5%85%B3%E7%B3%BB%E5%9E%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>数据库</title>
+      <link>http://localhost:1313/www6vMiddleware/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <pubDate>Tue, 15 Aug 2023 12:42:56 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <description></description>
+    </item>
     <item>
       <title>服务发现</title>
       <link>http://localhost:1313/www6vMiddleware/categories/%E6%9C%8D%E5%8A%A1%E5%8F%91%E7%8E%B0/</link>
