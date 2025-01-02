@@ -16,6 +16,20 @@
       <description></description>
     </item>
     <item>
+      <title>数据库</title>
+      <link>http://localhost:1313/www6vMiddleware/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <pubDate>Mon, 05 Jun 2023 14:50:16 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>分布式数据库</title>
+      <link>http://localhost:1313/www6vMiddleware/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <pubDate>Mon, 10 Apr 2023 15:43:51 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>服务治理</title>
       <link>http://localhost:1313/www6vMiddleware/tags/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/</link>
       <pubDate>Sun, 14 Aug 2022 19:20:42 +0000</pubDate>
@@ -34,6 +48,13 @@
       <link>http://localhost:1313/www6vMiddleware/tags/db/</link>
       <pubDate>Sun, 14 Aug 2022 14:33:12 +0000</pubDate>
       <guid>http://localhost:1313/www6vMiddleware/tags/db/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KV</title>
+      <link>http://localhost:1313/www6vMiddleware/tags/KV/</link>
+      <pubDate>Sun, 31 Jul 2022 11:37:41 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/tags/KV/</guid>
       <description></description>
     </item>
     <item>
@@ -69,6 +90,13 @@
       <link>http://localhost:1313/www6vMiddleware/tags/%E6%B5%81%E9%87%8F%E6%B2%BB%E7%90%86/</link>
       <pubDate>Mon, 28 Mar 2022 16:06:26 +0000</pubDate>
       <guid>http://localhost:1313/www6vMiddleware/tags/%E6%B5%81%E9%87%8F%E6%B2%BB%E7%90%86/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Redis</title>
+      <link>http://localhost:1313/www6vMiddleware/tags/Redis/</link>
+      <pubDate>Mon, 28 Mar 2022 10:47:56 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/tags/Redis/</guid>
       <description></description>
     </item>
     <item>
