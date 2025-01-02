@@ -5,11 +5,11 @@
     <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%8D%95%E6%9C%BA/</loc>
     <lastmod>2023-08-15T12:42:56+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2023-07-10T15:48:29+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/</loc>
     <lastmod>2022-08-14T19:20:42+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2022-07-31T11:37:41+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/message/Overview/</loc>
     <lastmod>2022-05-12T22:17:03+00:00</lastmod>
@@ -19,6 +19,12 @@
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/overview/</loc>
     <lastmod>2022-01-18T21:28:08+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/redisRehash/</loc>
+    <lastmod>2021-06-20T22:50:50+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/Arch-Redis-Cluster/redisArch/</loc>
+    <lastmod>2021-05-25T18:35:49+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%8D%95%E6%9C%BA/mysqlTransactionAndLock/</loc>
     <lastmod>2020-08-14T17:22:20+00:00</lastmod>
@@ -67,6 +73,9 @@
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/throttle/</loc>
     <lastmod>2022-03-28T16:06:26+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/Arch-Redis-Cluster/redisError/</loc>
+    <lastmod>2022-03-28T10:47:56+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/</loc>
     <lastmod>2022-03-22T13:58:48+00:00</lastmod>
   </url><url>
@@ -75,6 +84,9 @@
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/overview/redisIO/</loc>
     <lastmod>2022-01-18T21:28:08+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/redisDataStructure/</loc>
+    <lastmod>2021-05-05T22:25:55+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%8D%95%E6%9C%BA/mysqlUpdate/</loc>
     <lastmod>2020-06-26T13:41:44+00:00</lastmod>
@@ -91,6 +103,12 @@
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/soaGracefulStart/</loc>
     <lastmod>2022-08-14T14:33:12+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/Arch-Redis-Cluster/redisCluster/</loc>
+    <lastmod>2022-07-11T06:45:41+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</loc>
+    <lastmod>2021-06-20T22:50:50+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/message/Overview/mqOrdering/</loc>
     <lastmod>2021-05-19T12:02:22+00:00</lastmod>
   </url><url>
@@ -100,11 +118,14 @@
     <loc>http://localhost:1313/www6vMiddleware/docs/message/Kafka/kafkaConsumer/</loc>
     <lastmod>2016-06-25T18:46:27+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/</loc>
+    <lastmod>2023-07-10T15:48:29+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/soaGracefulClose/</loc>
     <lastmod>2022-08-14T15:19:23+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/</loc>
-    <lastmod>2022-07-31T11:37:41+00:00</lastmod>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/Arch-Redis-Cluster/redisClusterSpec/</loc>
+    <lastmod>2022-07-11T13:15:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/message/Kafka/kafkaRebalance/</loc>
     <lastmod>2022-05-11T17:56:31+00:00</lastmod>
@@ -115,8 +136,17 @@
     <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%88%86%E5%B8%83%E5%BC%8F/distributedDatabaseGlobalTime/</loc>
     <lastmod>2022-04-11T11:11:25+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/%E4%BA%8B%E5%8A%A1/</loc>
+    <lastmod>2022-01-18T21:54:01+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%8D%95%E6%9C%BA/mysqlIndex/</loc>
     <lastmod>2019-09-10T16:02:39+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/%E6%8C%81%E4%B9%85%E5%8C%96/</loc>
+    <lastmod>2023-07-10T15:48:29+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/Arch-Redis-Cluster/redisHA/</loc>
+    <lastmod>2022-07-31T11:37:41+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%88%86%E5%B8%83%E5%BC%8F/distributedDatabaseJoinQuery/</loc>
     <lastmod>2021-05-30T12:05:34+00:00</lastmod>
@@ -199,6 +229,18 @@
     <loc>http://localhost:1313/www6vMiddleware/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2023-08-15T12:42:56+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/tags/KV/</loc>
+    <lastmod>2023-07-10T15:48:29+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/categories/KV/</loc>
+    <lastmod>2023-07-10T15:48:29+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/categories/Redis/</loc>
+    <lastmod>2023-07-10T15:48:29+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/%E6%8C%81%E4%B9%85%E5%8C%96/redisBothAofAndRDB/</loc>
+    <lastmod>2023-07-10T15:48:29+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/categories/%E4%BA%8C%E7%BA%A7%E7%B4%A2%E5%BC%95/</loc>
     <lastmod>2023-06-05T14:50:16+00:00</lastmod>
   </url><url>
@@ -241,18 +283,6 @@
     <loc>http://localhost:1313/www6vMiddleware/categories/%E9%89%B4%E6%9D%83/</loc>
     <lastmod>2022-08-10T09:29:10+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/www6vMiddleware/tags/KV/</loc>
-    <lastmod>2022-07-31T11:37:41+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/www6vMiddleware/categories/KV/</loc>
-    <lastmod>2022-07-31T11:37:41+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/www6vMiddleware/categories/Redis/</loc>
-    <lastmod>2022-07-31T11:37:41+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/Arch-Redis-Cluster/redisHA/</loc>
-    <lastmod>2022-07-31T11:37:41+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/tags/spring/</loc>
     <lastmod>2022-07-20T14:30:49+00:00</lastmod>
   </url><url>
@@ -268,11 +298,8 @@
     <loc>http://localhost:1313/www6vMiddleware/categories/%E4%BA%8B%E5%8A%A1/</loc>
     <lastmod>2022-07-20T14:30:49+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/Arch-Redis-Cluster/redisClusterSpec/</loc>
-    <lastmod>2022-07-11T13:15:05+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/Arch-Redis-Cluster/redisCluster/</loc>
-    <lastmod>2022-07-11T06:45:41+00:00</lastmod>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/%E6%8C%81%E4%B9%85%E5%8C%96/redisReplica/</loc>
+    <lastmod>2022-07-10T19:04:46+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/tags/kafka/</loc>
     <lastmod>2022-05-15T23:05:40+00:00</lastmod>
@@ -310,9 +337,6 @@
     <loc>http://localhost:1313/www6vMiddleware/tags/Redis/</loc>
     <lastmod>2022-03-28T10:47:56+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/Arch-Redis-Cluster/redisError/</loc>
-    <lastmod>2022-03-28T10:47:56+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/tags/API-Gateway/</loc>
     <lastmod>2022-03-23T21:31:49+00:00</lastmod>
   </url><url>
@@ -331,6 +355,18 @@
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGateway/</loc>
     <lastmod>2022-01-21T10:31:46+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/%E6%8C%81%E4%B9%85%E5%8C%96/redisAOF/</loc>
+    <lastmod>2022-01-18T22:21:15+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/%E4%BA%8B%E5%8A%A1/redisTransaction/</loc>
+    <lastmod>2022-01-18T21:54:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/%E6%8C%81%E4%B9%85%E5%8C%96/rdb/</loc>
+    <lastmod>2021-12-08T20:28:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/%E6%8C%81%E4%B9%85%E5%8C%96/aofRewrite/</loc>
+    <lastmod>2021-11-21T19:35:54+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/categories/springcloud/</loc>
     <lastmod>2021-06-06T16:07:33+00:00</lastmod>
   </url><url>
@@ -340,11 +376,11 @@
     <loc>http://localhost:1313/www6vMiddleware/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</loc>
     <lastmod>2021-06-06T16:07:33+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/Arch-Redis-Cluster/redisArch/</loc>
-    <lastmod>2021-05-25T18:35:49+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/categories/%E9%A1%BA%E5%BA%8F%E6%B6%88%E6%81%AF/</loc>
     <lastmod>2021-05-19T12:02:22+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/%E6%8C%81%E4%B9%85%E5%8C%96/redisRDB/</loc>
+    <lastmod>2021-01-02T21:41:43+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2020-07-27T22:11:35+00:00</lastmod>
