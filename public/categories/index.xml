@@ -58,6 +58,27 @@
       <description></description>
     </item>
     <item>
+      <title>Tracing</title>
+      <link>http://localhost:1313/www6vMiddleware/categories/tracing/</link>
+      <pubDate>Sat, 28 Jan 2023 22:42:30 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/categories/tracing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>可观测性</title>
+      <link>http://localhost:1313/www6vMiddleware/categories/%E5%8F%AF%E8%A7%82%E6%B5%8B%E6%80%A7/</link>
+      <pubDate>Sat, 28 Jan 2023 22:42:30 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/categories/%E5%8F%AF%E8%A7%82%E6%B5%8B%E6%80%A7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Log</title>
+      <link>http://localhost:1313/www6vMiddleware/categories/log/</link>
+      <pubDate>Sat, 28 Jan 2023 22:16:42 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/categories/log/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>服务发现</title>
       <link>http://localhost:1313/www6vMiddleware/categories/%E6%9C%8D%E5%8A%A1%E5%8F%91%E7%8E%B0/</link>
       <pubDate>Sun, 14 Aug 2022 19:20:42 +0000</pubDate>
@@ -93,6 +114,13 @@
       <description></description>
     </item>
     <item>
+      <title>系统构建</title>
+      <link>http://localhost:1313/www6vMiddleware/categories/%E7%B3%BB%E7%BB%9F%E6%9E%84%E5%BB%BA/</link>
+      <pubDate>Thu, 04 Aug 2022 13:59:05 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/categories/%E7%B3%BB%E7%BB%9F%E6%9E%84%E5%BB%BA/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Spring</title>
       <link>http://localhost:1313/www6vMiddleware/categories/spring/</link>
       <pubDate>Wed, 20 Jul 2022 14:30:49 +0000</pubDate>
@@ -111,6 +139,13 @@
       <link>http://localhost:1313/www6vMiddleware/categories/%E4%BA%8B%E5%8A%A1/</link>
       <pubDate>Wed, 20 Jul 2022 14:30:49 +0000</pubDate>
       <guid>http://localhost:1313/www6vMiddleware/categories/%E4%BA%8B%E5%8A%A1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Metric</title>
+      <link>http://localhost:1313/www6vMiddleware/categories/metric/</link>
+      <pubDate>Sun, 17 Jul 2022 10:05:33 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/categories/metric/</guid>
       <description></description>
     </item>
     <item>
@@ -153,6 +188,13 @@
       <link>http://localhost:1313/www6vMiddleware/categories/API%E7%BD%91%E5%85%B3/</link>
       <pubDate>Wed, 23 Mar 2022 21:31:49 +0000</pubDate>
       <guid>http://localhost:1313/www6vMiddleware/categories/API%E7%BD%91%E5%85%B3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenTelemetry</title>
+      <link>http://localhost:1313/www6vMiddleware/categories/OpenTelemetry/</link>
+      <pubDate>Sat, 29 Jan 2022 12:49:06 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/categories/OpenTelemetry/</guid>
       <description></description>
     </item>
     <item>
