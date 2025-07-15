@@ -62,6 +62,8 @@
     <loc>http://localhost:1313/www6vMiddleware/docs/message/Overview/mq/</loc>
     <lastmod>2016-04-19T18:33:32+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Deploy/deploy/</loc>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/RMDB/%E5%88%86%E5%B8%83%E5%BC%8F/</loc>
     <lastmod>2023-06-05T14:50:16+00:00</lastmod>
   </url><url>
@@ -164,6 +166,8 @@
     <loc>http://localhost:1313/www6vMiddleware/docs/message/Kafka/kafkaConsumer/</loc>
     <lastmod>2016-06-25T18:46:27+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Overview/resilience/</loc>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/</loc>
     <lastmod>2023-07-10T15:48:29+00:00</lastmod>
   </url><url>
@@ -263,7 +267,7 @@
     <loc>http://localhost:1313/www6vMiddleware/docs/%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81/</loc>
     <lastmod>2022-05-05T14:56:48+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Gray/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Deploy/</loc>
     <lastmod>2022-03-23T21:31:49+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/message/Kafka/kafkaZeroCopy/</loc>
@@ -497,7 +501,7 @@
     <loc>http://localhost:1313/www6vMiddleware/tags/API-Gateway/</loc>
     <lastmod>2022-03-23T21:31:49+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Gray/apiGatewayGray/</loc>
+    <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/Deploy/apiGatewayGray/</loc>
     <lastmod>2022-03-23T21:31:49+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/categories/API%E7%BD%91%E5%85%B3/</loc>

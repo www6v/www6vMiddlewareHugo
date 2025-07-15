@@ -1,5 +1,5 @@
 ---
-title: 灰度发布
+title: Deploy
 type: docs
 weight: 7
 ---

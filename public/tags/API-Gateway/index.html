@@ -17,7 +17,7 @@
 <link rel="canonical" href="http://localhost:1313/www6vMiddleware/tags/API-Gateway/">
 <link rel="stylesheet" href="/www6vMiddleware/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/www6vMiddleware/fuse.min.js"></script>
-  <script defer src="/www6vMiddleware/en.search.min.54048e2ca1f3812edd03ed9e1068b3450c4c24fb28ca2b602cd990ae1ee3db99.js" integrity="sha256-VASOLKHzgS7dA&#43;2eEGizRQxMJPsoyitgLNmQrh7j25k=" crossorigin="anonymous"></script>
+  <script defer src="/www6vMiddleware/en.search.min.0af26df351e97744a51e922c9e8abc546c199368858144d6300a6e640837746a.js" integrity="sha256-CvJt81Hpd0SlHpIsnoq8VGwZk2iFgUTWMApuZAg3dGo=" crossorigin="anonymous"></script>
 
   
 
@@ -94,6 +94,24 @@ https://github.com/alex-shpak/hugo-book
 
           
   <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/www6vMiddleware/docs/serviceGovernance/Overview/resilience/" class="">弹力设计 *</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
     
       
         <li>
@@ -637,7 +655,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <span>灰度发布</span>
+    <span>Deploy</span>
   
 
           
@@ -650,7 +668,25 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/www6vMiddleware/docs/serviceGovernance/Gray/apiGatewayGray/" class="">API 网关-灰度发布</a>
+    <a href="/www6vMiddleware/docs/serviceGovernance/Deploy/deploy/" class="">部署升级</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/www6vMiddleware/docs/serviceGovernance/Deploy/apiGatewayGray/" class="">API 网关-灰度发布</a>
   
 
           
@@ -3389,7 +3425,7 @@ https://github.com/alex-shpak/hugo-book
   
   <article class="markdown book-post">
     <h2>
-      <a href="/www6vMiddleware/docs/serviceGovernance/Gray/apiGatewayGray/">API 网关-灰度发布</a>
+      <a href="/www6vMiddleware/docs/serviceGovernance/Deploy/apiGatewayGray/">API 网关-灰度发布</a>
     </h2>
     
   <div class="flex align-center text-small book-post-date">
@@ -3416,7 +3452,7 @@ https://github.com/alex-shpak/hugo-book
 
 
     <p>灰度发布 策略 [2]#基于权重 百分比 version &hellip; 基于springcloud gateway + nacos实现灰度发布[1]#spring: application: name: gateway-reactor-gray cloud: nacos: discovery: server-addr: localhost:8848 gateway: discovery: locator: enabled: true lower-case-service-id: true routes: - id: hello-consumer uri: grayLb://hello-consumer ## 灰度负载均衡 predicates: - Path=/hello/** public class GrayLoadBalancer implements ReactorServiceInstanceLoadBalancer { ... private Response&lt;ServiceInstance&gt; getInstanceResponse(List&lt;ServiceInstance&gt; instances,HttpHeaders headers) { if (instances.isEmpty()) { return getServiceInstanceEmptyResponse(); } else { return getServiceInstanceResponseWithWeight(instances); // } } /** * 根据版本进行分发 */ private Response&lt;ServiceInstance&gt; getServiceInstanceResponseByVersion(List&lt;ServiceInstance&gt; instances, HttpHeaders headers) { String versionNo = headers.
-        <a href="/www6vMiddleware/docs/serviceGovernance/Gray/apiGatewayGray/">...</a>
+        <a href="/www6vMiddleware/docs/serviceGovernance/Deploy/apiGatewayGray/">...</a>
       
     </p>
   </article>

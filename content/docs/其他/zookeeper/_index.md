@@ -1,5 +1,5 @@
 ---
-title: Zookeeper-总结
+title: 分布式协调-Zookeeper
 date: 2015-03-26 22:22:29
 tags:
   - Zookeeper
