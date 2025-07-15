@@ -281,6 +281,9 @@
     <loc>http://localhost:1313/www6vMiddleware/docs/message/Kafka/kafkaController/</loc>
     <lastmod>2021-05-16T14:30:24+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2022-03-21T09:43:56+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/message/Kafka/kafkaReplica/</loc>
     <lastmod>2021-05-16T10:50:48+00:00</lastmod>
   </url><url>
@@ -506,6 +509,18 @@
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGatawayApisix/</loc>
     <lastmod>2022-03-22T13:58:23+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/%E7%BD%91%E7%BB%9C/grpc/</loc>
+    <lastmod>2022-03-21T09:43:56+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/categories/rpc/</loc>
+    <lastmod>2022-03-21T09:43:56+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2022-03-21T09:43:56+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/tags/%E5%BC%82%E6%AD%A5/</loc>
+    <lastmod>2022-03-21T09:43:56+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/Observe/Tracing/observabilitySkywalking/</loc>
     <lastmod>2022-03-18T22:15:49+00:00</lastmod>
   </url><url>
@@ -566,6 +581,15 @@
     <loc>http://localhost:1313/www6vMiddleware/docs/Redis&#43;%E7%BC%93%E5%AD%98/Redis-%E5%9F%BA%E7%A1%80/%E6%8C%81%E4%B9%85%E5%8C%96/redisRDB/</loc>
     <lastmod>2021-01-02T21:41:43+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/tags/%E4%BA%8B%E4%BB%B6/</loc>
+    <lastmod>2020-08-23T12:54:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/categories/%E4%BA%8B%E4%BB%B6/</loc>
+    <lastmod>2020-08-23T12:54:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/%E5%85%B6%E4%BB%96/event/</loc>
+    <lastmod>2020-08-23T12:54:24+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/www6vMiddleware/tags/Tomcat/</loc>
     <lastmod>2020-08-08T22:38:36+00:00</lastmod>
   </url><url>
@@ -583,6 +607,21 @@
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/ConfigDiscovery/config/</loc>
     <lastmod>2020-07-27T22:11:35+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/tags/Java%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2020-06-11T20:19:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/categories/Java%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2020-06-11T20:19:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/tags/Mybatis/</loc>
+    <lastmod>2020-06-11T20:19:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/categories/Mybatis/</loc>
+    <lastmod>2020-06-11T20:19:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/DAL/mybatisInteceptor/</loc>
+    <lastmod>2020-06-11T20:19:24+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/tags/Nginx/</loc>
     <lastmod>2020-03-26T12:07:27+00:00</lastmod>
@@ -622,6 +661,15 @@
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/loadBalance/nginx/</loc>
     <lastmod>2019-08-22T02:17:53+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/tags/http/</loc>
+    <lastmod>2019-08-14T15:00:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/categories/http/</loc>
+    <lastmod>2019-08-14T15:00:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/www6vMiddleware/docs/%E7%BD%91%E7%BB%9C/https/</loc>
+    <lastmod>2019-08-14T15:00:23+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/www6vMiddleware/tags/cache/</loc>
     <lastmod>2018-01-21T09:59:17+00:00</lastmod>

@@ -219,6 +219,20 @@
       <description></description>
     </item>
     <item>
+      <title>Rpc</title>
+      <link>http://localhost:1313/www6vMiddleware/categories/rpc/</link>
+      <pubDate>Mon, 21 Mar 2022 09:43:56 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/categories/rpc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>基础</title>
+      <link>http://localhost:1313/www6vMiddleware/categories/%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Mon, 21 Mar 2022 09:43:56 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/categories/%E5%9F%BA%E7%A1%80/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>OpenTelemetry</title>
       <link>http://localhost:1313/www6vMiddleware/categories/OpenTelemetry/</link>
       <pubDate>Sat, 29 Jan 2022 12:49:06 +0000</pubDate>
@@ -254,6 +268,13 @@
       <description></description>
     </item>
     <item>
+      <title>事件</title>
+      <link>http://localhost:1313/www6vMiddleware/categories/%E4%BA%8B%E4%BB%B6/</link>
+      <pubDate>Sun, 23 Aug 2020 12:54:24 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/categories/%E4%BA%8B%E4%BB%B6/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Tomcat</title>
       <link>http://localhost:1313/www6vMiddleware/categories/Tomcat/</link>
       <pubDate>Sat, 08 Aug 2020 22:38:36 +0000</pubDate>
@@ -265,6 +286,20 @@
       <link>http://localhost:1313/www6vMiddleware/categories/%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Mon, 27 Jul 2020 22:11:35 +0000</pubDate>
       <guid>http://localhost:1313/www6vMiddleware/categories/%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java基础</title>
+      <link>http://localhost:1313/www6vMiddleware/categories/Java%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Thu, 11 Jun 2020 20:19:24 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/categories/Java%E5%9F%BA%E7%A1%80/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mybatis</title>
+      <link>http://localhost:1313/www6vMiddleware/categories/Mybatis/</link>
+      <pubDate>Thu, 11 Jun 2020 20:19:24 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/categories/Mybatis/</guid>
       <description></description>
     </item>
     <item>
@@ -300,6 +335,13 @@
       <link>http://localhost:1313/www6vMiddleware/categories/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</link>
       <pubDate>Mon, 09 Sep 2019 15:02:28 +0000</pubDate>
       <guid>http://localhost:1313/www6vMiddleware/categories/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Http</title>
+      <link>http://localhost:1313/www6vMiddleware/categories/http/</link>
+      <pubDate>Wed, 14 Aug 2019 15:00:23 +0000</pubDate>
+      <guid>http://localhost:1313/www6vMiddleware/categories/http/</guid>
       <description></description>
     </item>
     <item>
