@@ -93,14 +93,14 @@
       <description>&#xA;Hystrix实现和容错模式&#xD;#&#xD;Hystrix实现和容错模式 熔断【熔断器模式】 三个状态 开 闭 半开 模块 熔断请求判断机制算法 维护10个bucket,每秒一个bucket,每个blucket记录成功,失败,超时,拒绝的状态。 超时【超时与重试模式】 失败（异常） 成功 拒绝 线程池拒绝【1】 信号量拒绝【2】 默认错误超过50%且10秒内超过20个请求进行中断拦截 熔断恢复 每隔5s允许部分请求通过，若请求都是健康的（RT&amp;lt;250ms）则对请求健康恢复 熔断报警和Metric上报 流控【限流模式】 控制速率 控制并发 隔离【舱壁隔离模式】 Hystrix实现 线程池隔离 【1】 信号量隔离【2】 回退【回退模式】 快速失败（Fail Fast ） 无声失败（Fail Silent ） 返回默认值（Fallback Static ） Resilience4j [1]&#xD;#&#xD;断路器（Circuit Breaker） 重试（Retry） 限时器（Time Limiter） 限流器（Rate Limiter） 隔板（BulkHead） 参考&#xD;#&#xD;Hystrix&#xD;#&#xD;微服务熔断与隔离 楚岩 Hystrix技术解析 王新栋 &amp;laquo;亿级流量网站架构核心技术&amp;raquo; 5.8节 张开涛 Hystrix 使用与分析 zhangyijun Resilience4j&#xD;#&#xD;Resilience4j 比 Hystrix 好在哪里？ </description>
     </item>
     <item>
-      <title>限流-总结</title>
+      <title>限流-总结 *</title>
       <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/throttle/ratelimit/</link>
       <pubDate>Mon, 26 Sep 2016 06:34:48 +0000</pubDate>
       <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/throttle/ratelimit/</guid>
       <description>&#xA;限流总结&#xD;#&#xD;限流算法&#xD;#&#xD;流控算法 原理 实现 实现复杂度 优势 缺点 计数器法 简单 缺点 临界问题,不能应对突发请求 滑动窗口 滑动时间窗口划成了多格，粒度细; 解决了计数器法的缺点; 基于时间窗口[5] 简单 令牌桶算法 Guava RateLimiter [7] 复杂 能够处理突发请求; 允许某些流量的突发，被业界采用地较多 漏桶算法 漏桶算法[6] 代码[0] 简单 队列算法 FIFO队列; 权重队列; Linux tc 队列长度很关键 分布式限流&#xD;#&#xD;分布式计数器&#xA;实现 Redis(服务端)+Lua(客户端) 限流网关&#xA;缺陷 服务之间的调用不一定走网关 参考&#xD;#&#xD;漏桶算法实现 限流系统如何发现系统的热点 中间件小哥 *** 接口限流算法总结 夜有所思，日有所梦 聊聊高并发系统之限流特技 张开涛 服务化体系之－限流 江南白衣 失效 《应用 6：断尾求生 —— 简单限流 》 Redis 深度历险：核心原理与应用实践 《应用 7：一毛不拔 —— 漏斗限流》 Redis 深度历险：核心原理与应用实践 有代码实现 Guava RateLimiter源码解析 林舍 manerfan 淘宝应用柔性架构的探索 自适应负载调节 </description>
     </item>
     <item>
-      <title>超时和重试 总结</title>
+      <title>超时和重试 总结 *</title>
       <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTimeout/</link>
       <pubDate>Sun, 17 Jan 2016 12:23:58 +0000</pubDate>
       <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTimeout/</guid>
@@ -114,7 +114,7 @@
       <description>&#xA;京东服务框架JSF&#xD;#&#xD;JSF是京东基础架构组的服务化中间件产品，全名是Jingdong Service Framework（中文名：杰夫）。 JSF整体是依据netty来构建的，本文从代码层面简单介绍一下JSF服务端的线程模型。&#xA;1.JSF的服务端线程模型整体上是 boss线程池 + worker线程池 + 业务线程池。boss线程池和worker线程池称为Reactor线程池。&#xD;#&#xD;三类线程池各自的参数详见下图1。&#xA;worker线程池和业务线程池之间的关系详见下图2，在图中可以看到业务线程和worker线程是解耦的，请求放入业务线程后，IO线程即worker线程就返回了，业务线程和I/O线程隔离。 在没有解耦IO线程和业务ChannelHandler的情况时，如果在业务ChannelHandler中进行数据库等同步I/O操作，很有可能会导致IO线程中的pipeline链路被阻塞。&#xA;2. 图3是boss线程池， 线程数为Max(4,cpu/2)，用户不可以配置&#xD;#&#xD;3. 图4是worker线程池， 线程数为Max(8,cpu+1)，用户可以配置&#xD;#&#xD;4.图5和图6是业务线程池的构建，cached线程池大小是20-200，默认queue的大小是0。 任务来了直接分配线程，直到线程池满，得不到执行线程抛异常。&#xD;#&#xD;图7中一个服务端口对应一个业务线程池。&#xA;5. 在ChannelPipeline中ServerHandler根据服务端的配置获取对应的业务线程池，然后在ServerHandler的handlerRequest中提交业务任务，默认的任务是JSFTask。&#xD;#&#xD;具体实现如图8,9,10.&#xA;可以看到，JSF服务提供者线程模型整体还是按照boss+worker+biz这种netty官方推荐的方式构建的。&#xA;参考：&#xD;#&#xD;京东 jsf 源代码和文档 Netty案例集锦之多线程篇（续） 李林锋 </description>
     </item>
     <item>
-      <title>分布式服务框架 容错机制</title>
+      <title>分布式服务框架 容错机制 *</title>
       <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerate/</link>
       <pubDate>Wed, 17 Jun 2015 17:08:05 +0000</pubDate>
       <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/faultTolerant/faultTolerant/soaTolerate/</guid>
