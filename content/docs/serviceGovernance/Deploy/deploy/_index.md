@@ -1,5 +1,5 @@
 ---
-title: 部署升级
+title: 部署升级 *
 weight: 1
 ---
 

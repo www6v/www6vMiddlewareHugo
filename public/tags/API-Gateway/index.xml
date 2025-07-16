@@ -30,7 +30,7 @@
       <description>&#xA;apisix特性&#xD;#&#xD;Core api聚合 灰度发布 稳定性 服务熔断 故障注入 流量复制 云原生 多云，混合云 容器友好 随意扩缩容 apisix功能&#xD;#&#xD;动态配置，不用reload&#xA;路由, ssl证书，上游，插件&amp;hellip; 插件化(40个)&#xA;身份验证, 安全, 日志, 可观察性&amp;hellip; 对接Prom，zipkin， skywalking grpc代理和协议转换(rest &amp;lt;-&amp;gt; gprc) apisix只用了nginx的网络层 apisix使用场景&#xD;#&#xD;处理L4, L7层流量 代替nginx处理南北流量 代替envoy处理东西流量 k8s ingress controller 参考&#xD;#&#xD;【云原生学院 #3】基于 Apache APISIX 的全流量 API 网关 *** </description>
     </item>
     <item>
-      <title>API Gateway网关</title>
+      <title>API Gateway网关 *</title>
       <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGateway/</link>
       <pubDate>Fri, 21 Jan 2022 10:31:46 +0000</pubDate>
       <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGateway/</guid>

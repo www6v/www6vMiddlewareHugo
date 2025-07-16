@@ -1,5 +1,5 @@
 ---
-title: MySQL事务-总结
+title: MySQL事务-总结 *
 date: 2015-02-21 14:44:33
 weight: 5
 tags:

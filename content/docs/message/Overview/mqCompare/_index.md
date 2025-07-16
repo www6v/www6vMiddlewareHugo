@@ -1,5 +1,5 @@
 ---
-title: MQ总结(Kafka, Rocketmq, Rabbitmq)
+title: MQ总结(Kafka, Rocketmq, Rabbitmq) *
 date: 2022-05-12 22:17:03
 weight: 2
 tags:

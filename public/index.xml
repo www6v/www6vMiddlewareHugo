@@ -15,12 +15,5 @@
       <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/API-Gateway/apiGatawaySpringGateway/</guid>
       <description>Features [0]&#xD;#&#xD;Built on Spring Framework 5, Project Reactor and Spring Boot 2.0 Able to match routes on any request attribute. Predicates and filters are specific to routes. Circuit Breaker integration. Spring Cloud DiscoveryClient integration Easy to write Predicates and Filters Request Rate Limiting Path Rewriting 核心概念 [1][2]&#xD;#&#xD;路由（Route）&#xA;id：路由标识，要求唯一，名称任意（默认值 uuid，一般不用，需要自定义） uri：请求最终被转发到的目标地址 order： 路由优先级，数字越小，优先级越高 predicates：断言数组，即判断条件，如果返回值是boolean，则转发请求到 uri 属性指定的服务中 filters：过滤器数组，在请求传递过程中，对请求做一些修改 谓词、断言（Predicate） 允许开发人员匹配 HTTP 请求中的内容，比如请求头或请求参数，最后根据匹配结果返回一个布尔值。参照 Java8 的新特性Predicate.&#xA;过滤器（Filter） 可以在返回请求之前或之后修改请求和响应的内容。&#xA;路由（Route）[1][2]&#xD;#&#xD;服务发现-集成nacos服务注册中心 [2]&#xD;#&#xD;服务路由配置 spring: cloud: gateway: routes: - id: gateway-provider_1 ## 使用了lb形式，从注册中心负载均衡的获取uri uri: lb://gateway-provider ## 配置断言 predicates: - Path=/gateway/provider/** filters: - AddResponseHeader=X-Response-Foo, Bar 自动路由配置 # enabled：默认为false，设置为true表明spring cloud gateway开启服务发现和路由的功能，网关自动根据注册中心的服务名为每个服务创建一个router，将以服务名开头的请求路径转发到对应的服务 spring.</description>
     </item>
-    <item>
-      <title>Nginx优化</title>
-      <link>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/loadBalance/nginxOptimize/</link>
-      <pubDate>Thu, 26 Mar 2020 12:07:27 +0000</pubDate>
-      <guid>http://localhost:1313/www6vMiddleware/docs/serviceGovernance/loadBalance/nginxOptimize/</guid>
-      <description>Nginx 参数优化&#xD;#&#xD;反向代理&#xD;#&#xD;proxy_cache: 10M(重要) proxy_cache_path /data/nginx_cache/ levels=1:2 keys_zone=my_zone:10m inactive=300s max_size=5g; tls ssl&#xD;#&#xD;ssl_session_cache builtin:1000 shared:SSL:10m; /// 一天内连接上的用户， 不需要再协商秘钥 ssl_session_cache builtin:1000 shared:SSL:10m; /// 1m -&amp;gt; 4000个https连接 ssl_session_timeout 10m; /// 10分钟 ssl_protocols TLSv1.2; /// 版本号 非安全请求重定向&#xD;#&#xD;No redirect: 无重定向 Redirect： 301-302 -》 转到https站点 gzip&#xD;#&#xD;gzip on; gzip_comp_level 5; gzip_http_version 1.1; /// 注意：gzip 在1.1上有效， http2.0上是无效的 gzip_min_length 256; gzip_types application/atom+xml ... gzip_proxied any; gzip_vary on; worker&#xD;#&#xD;worker_connections 16384; /// 一个worker有 16384/2=8192 ‬个链接 .</description>
-    </item>
   </channel>
 </rss>
